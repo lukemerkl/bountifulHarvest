@@ -87,14 +87,14 @@ F0 "Coprocessor" 50
 F1 "STM32.sch" 50
 $EndSheet
 Wire Notes Line
-	9700 4900 11050 4900
+	7950 4450 9300 4450
 Wire Notes Line
-	11050 4900 11050 5300
+	9300 4450 9300 4850
 Wire Notes Line
-	11050 5300 9700 5300
+	9300 4850 7950 4850
 Wire Notes Line
-	9700 5300 9700 4900
-Text Notes 10150 5150 0    50   ~ 0
+	7950 4850 7950 4450
+Text Notes 8400 4700 0    50   ~ 0
 Peripherals\n
 Wire Notes Line
 	1000 4200 2100 4200
@@ -119,9 +119,17 @@ F0 "Motor_Drivers" 67
 F1 "Trinamic_drv.sch" 67
 $EndSheet
 $Sheet
-S 9700 5400 1350 650 
+S 7950 5000 1350 700 
 U 5F08C095
 F0 "peripherals" 50
 F1 "FET_drivers.sch" 50
+F2 "PERIPH_0" I L 7950 5200 50 
+F3 "PERIPH_1" I L 7950 5300 50 
+F4 "PERIPH_2" I L 7950 5400 50 
+F5 "PERIPH_3" I L 7950 5500 50 
+F6 "P_0_I" I R 9300 5200 50 
+F7 "P_3_I" I R 9300 5500 50 
+F8 "P_1_I" I R 9300 5300 50 
+F9 "P_2_I" I R 9300 5400 50 
 $EndSheet
 $EndSCHEMATC

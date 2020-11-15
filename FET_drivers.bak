@@ -126,7 +126,7 @@ F 3 "" H 2550 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3050 2550 3300
+	2550 3050 2550 3250
 Wire Wire Line
 	2100 3150 2100 3300
 Wire Wire Line
@@ -146,56 +146,56 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:LM324A U?
 U 1 1 5F09C9DC
-P 2450 5150
-F 0 "U?" H 2450 5517 50  0000 C CNN
-F 1 "LM324A" H 2450 5426 50  0000 C CNN
-F 2 "" H 2400 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2500 5350 50  0001 C CNN
-	1    2450 5150
+P 2050 5150
+F 0 "U?" H 2050 5517 50  0000 C CNN
+F 1 "LM324A" H 2050 5426 50  0000 C CNN
+F 2 "" H 2000 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 5350 50  0001 C CNN
+	1    2050 5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U?
 U 2 1 5F09CB12
-P 3850 5150
-F 0 "U?" H 3850 5517 50  0000 C CNN
-F 1 "LM324A" H 3850 5426 50  0000 C CNN
-F 2 "" H 3800 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3900 5350 50  0001 C CNN
-	2    3850 5150
+P 2100 6500
+F 0 "U?" H 2100 6867 50  0000 C CNN
+F 1 "LM324A" H 2100 6776 50  0000 C CNN
+F 2 "" H 2050 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2150 6700 50  0001 C CNN
+	2    2100 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U?
 U 3 1 5F09CC2D
-P 5800 5100
-F 0 "U?" H 5800 5467 50  0000 C CNN
-F 1 "LM324A" H 5800 5376 50  0000 C CNN
-F 2 "" H 5750 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5850 5300 50  0001 C CNN
-	3    5800 5100
+P 4900 5250
+F 0 "U?" H 4900 5617 50  0000 C CNN
+F 1 "LM324A" H 4900 5526 50  0000 C CNN
+F 2 "" H 4850 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 5450 50  0001 C CNN
+	3    4900 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U?
 U 4 1 5F09CCBC
-P 7050 5100
-F 0 "U?" H 7050 5467 50  0000 C CNN
-F 1 "LM324A" H 7050 5376 50  0000 C CNN
-F 2 "" H 7000 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7100 5300 50  0001 C CNN
-	4    7050 5100
+P 8450 5250
+F 0 "U?" H 8450 5617 50  0000 C CNN
+F 1 "LM324A" H 8450 5526 50  0000 C CNN
+F 2 "" H 8400 5350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8500 5450 50  0001 C CNN
+	4    8450 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:LM324A U?
 U 5 1 5F09CD1D
-P 8550 5150
-F 0 "U?" H 8508 5196 50  0000 L CNN
-F 1 "LM324A" H 8508 5105 50  0000 L CNN
-F 2 "" H 8500 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8600 5350 50  0001 C CNN
-	5    8550 5150
+P 4600 6750
+F 0 "U?" H 4558 6796 50  0000 L CNN
+F 1 "LM324A" H 4558 6705 50  0000 L CNN
+F 2 "" H 4550 6850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4650 6950 50  0001 C CNN
+	5    4600 6750
 	1    0    0    -1  
 $EndComp
 Text Notes 2200 850  0    79   ~ 0
@@ -289,17 +289,6 @@ F 5 "WSLP1206R0200FEA" H 2550 3450 50  0001 C CNN "Manufacturer P/N"
 F 6 "WSLP-.02CT-ND" H 2550 3450 50  0001 C CNN "Vendor P/N"
 	1    2550 3450
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FB08411
-P 4800 1400
-F 0 "J?" V 4766 1212 50  0000 R CNN
-F 1 "Conn_01x02" V 4675 1212 50  0000 R CNN
-F 2 "" H 4800 1400 50  0001 C CNN
-F 3 "~" H 4800 1400 50  0001 C CNN
-	1    4800 1400
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D?
@@ -501,17 +490,6 @@ $EndComp
 Text HLabel 3600 2950 0    79   Input ~ 0
 PERIPH_1
 $Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FB11767
-P 7250 1450
-F 0 "J?" V 7216 1262 50  0000 R CNN
-F 1 "Conn_01x02" V 7125 1262 50  0000 R CNN
-F 2 "" H 7250 1450 50  0001 C CNN
-F 3 "~" H 7250 1450 50  0001 C CNN
-	1    7250 1450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D?
 U 1 1 5FB11771
 P 6400 2450
@@ -711,17 +689,6 @@ F 5 "WSLP1206R0200FEA" H 7350 3600 50  0001 C CNN "Manufacturer P/N"
 F 6 "WSLP-.02CT-ND" H 7350 3600 50  0001 C CNN "Vendor P/N"
 	1    7350 3600
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5FB117F0
-P 9600 1550
-F 0 "J?" V 9566 1362 50  0000 R CNN
-F 1 "Conn_01x02" V 9475 1362 50  0000 R CNN
-F 2 "" H 9600 1550 50  0001 C CNN
-F 3 "~" H 9600 1550 50  0001 C CNN
-	1    9600 1550
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D?
@@ -926,4 +893,765 @@ Wire Wire Line
 	3650 2950 3600 2950
 Text Notes 8700 850  0    79   ~ 0
 Spare
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FB1ACFE
+P 4800 1400
+F 0 "J?" V 4766 1212 50  0000 R CNN
+F 1 "Conn_01x02" V 4675 1212 50  0000 R CNN
+F 2 "bountiful_harvest:MOLEX_1510481206_6.55p" H 4800 1400 50  0001 C CNN
+F 3 "~" H 4800 1400 50  0001 C CNN
+F 4 "Molex" H 4800 1400 50  0001 C CNN "Manufacturer"
+F 5 "1510481206" H 4800 1400 50  0001 C CNN "Manufacturer P/N"
+F 6 "1510481206" H 4800 1400 50  0001 C CNN "Vendor P/N"
+	1    4800 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FB1AD78
+P 7250 1450
+F 0 "J?" V 7216 1262 50  0000 R CNN
+F 1 "Conn_01x02" V 7125 1262 50  0000 R CNN
+F 2 "bountiful_harvest:MOLEX_1510481206_6.55p" H 7250 1450 50  0001 C CNN
+F 3 "~" H 7250 1450 50  0001 C CNN
+F 4 "Molex" H 7250 1450 50  0001 C CNN "Manufacturer"
+F 5 "1510481206" H 7250 1450 50  0001 C CNN "Manufacturer P/N"
+F 6 "1510481206" H 7250 1450 50  0001 C CNN "Vendor P/N"
+	1    7250 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5FB1ADF2
+P 9600 1550
+F 0 "J?" V 9566 1362 50  0000 R CNN
+F 1 "Conn_01x02" V 9475 1362 50  0000 R CNN
+F 2 "bountiful_harvest:MOLEX_1510481206_6.55p" H 9600 1550 50  0001 C CNN
+F 3 "~" H 9600 1550 50  0001 C CNN
+F 4 "Molex" H 9600 1550 50  0001 C CNN "Manufacturer"
+F 5 "1510481206" H 9600 1550 50  0001 C CNN "Manufacturer P/N"
+F 6 "1510481206" H 9600 1550 50  0001 C CNN "Vendor P/N"
+	1    9600 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB1D0E8
+P 1050 4700
+F 0 "R?" V 843 4700 50  0000 C CNN
+F 1 "1k" V 934 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 4700 50  0001 C CNN
+F 3 "~" H 1050 4700 50  0001 C CNN
+F 4 "Bourns" H 1050 4700 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 1050 4700 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 1050 4700 50  0001 C CNN "Vendor P/N"
+	1    1050 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB1FE61
+P 1300 4850
+F 0 "C?" H 1415 4896 50  0000 L CNN
+F 1 "100pF" H 1415 4805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1338 4700 50  0001 C CNN
+F 3 "~" H 1300 4850 50  0001 C CNN
+F 4 "Wurth" H 1300 4850 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 1300 4850 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 1300 4850 50  0001 C CIN "Vendor P/N"
+	1    1300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB200CF
+P 5200 6700
+F 0 "C?" H 5315 6746 50  0000 L CNN
+F 1 "1nF" H 5315 6655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5238 6550 50  0001 C CNN
+F 3 "~" H 5200 6700 50  0001 C CNN
+F 4 "Kemet" H 5200 6700 50  0001 C CNN "Manufacturer"
+F 5 "C0603C102K3RACTU" H 5200 6700 50  0001 C CNN "Manufacturer P/N"
+F 6 "399-7834-1-ND" H 5200 6700 50  0001 C CNN "Vendor P/N"
+	1    5200 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5150 2400 5150
+Wire Wire Line
+	2400 5150 2400 5750
+Wire Wire Line
+	2400 5750 2100 5750
+Connection ~ 2400 5150
+Wire Wire Line
+	2400 5150 2450 5150
+Wire Wire Line
+	1800 5750 1600 5750
+Wire Wire Line
+	1600 5750 1600 5400
+Wire Wire Line
+	1600 5250 1750 5250
+Wire Wire Line
+	1750 5050 1750 4700
+Wire Wire Line
+	1750 4700 1300 4700
+Connection ~ 1300 4700
+Wire Wire Line
+	1300 4700 1200 4700
+$Comp
+L power:GND #PWR?
+U 1 1 5FB57641
+P 1300 5050
+F 0 "#PWR?" H 1300 4800 50  0001 C CNN
+F 1 "GND" H 1305 4877 50  0000 C CNN
+F 2 "" H 1300 5050 50  0001 C CNN
+F 3 "" H 1300 5050 50  0001 C CNN
+	1    1300 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5000 1300 5050
+Wire Wire Line
+	2550 3250 2900 3250
+Connection ~ 2550 3250
+Wire Wire Line
+	2550 3250 2550 3300
+Text Label 2900 3250 0    50   ~ 0
+P_0_SENSE
+Text Label 500  4700 0    50   ~ 0
+P_0_SENSE
+Wire Wire Line
+	900  4700 500  4700
+$Comp
+L power:GND #PWR?
+U 1 1 5FB630BF
+P 650 5550
+F 0 "#PWR?" H 650 5300 50  0001 C CNN
+F 1 "GND" H 655 5377 50  0000 C CNN
+F 2 "" H 650 5550 50  0001 C CNN
+F 3 "" H 650 5550 50  0001 C CNN
+	1    650  5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  5400 650  5400
+Wire Wire Line
+	650  5400 650  5550
+Wire Wire Line
+	2900 5200 2900 5150
+Wire Wire Line
+	2900 5150 2750 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5FB7350E
+P 2900 5650
+F 0 "#PWR?" H 2900 5400 50  0001 C CNN
+F 1 "GND" H 2905 5477 50  0000 C CNN
+F 2 "" H 2900 5650 50  0001 C CNN
+F 3 "" H 2900 5650 50  0001 C CNN
+	1    2900 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5500 2900 5650
+Text HLabel 3000 5150 2    50   Input ~ 0
+P_0_I
+Wire Wire Line
+	3000 5150 2900 5150
+Connection ~ 2900 5150
+Wire Wire Line
+	1200 5400 1600 5400
+Connection ~ 1600 5400
+Wire Wire Line
+	1600 5400 1600 5250
+$Comp
+L Device:R R?
+U 1 1 5FB813B8
+P 1950 5750
+F 0 "R?" V 1743 5750 50  0000 C CNN
+F 1 "33k" V 1834 5750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1880 5750 50  0001 C CNN
+F 3 "~" H 1950 5750 50  0001 C CNN
+F 4 "Yageo" H 1950 5750 50  0001 C CNN "Manufacturer"
+F 5 "RT0603FRE0733KL" H 1950 5750 50  0001 C CNN "Manufacturer P/N"
+F 6 "YAG5959CT-ND" H 1950 5750 50  0001 C CNN "Vendor P/N"
+	1    1950 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB81B4E
+P 2900 5350
+F 0 "C?" H 3015 5396 50  0000 L CNN
+F 1 "100pF" H 3015 5305 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2938 5200 50  0001 C CNN
+F 3 "~" H 2900 5350 50  0001 C CNN
+F 4 "Wurth" H 2900 5350 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 2900 5350 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 2900 5350 50  0001 C CIN "Vendor P/N"
+	1    2900 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB824F3
+P 1050 5400
+F 0 "R?" V 843 5400 50  0000 C CNN
+F 1 "1k" V 934 5400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 980 5400 50  0001 C CNN
+F 3 "~" H 1050 5400 50  0001 C CNN
+F 4 "Bourns" H 1050 5400 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 1050 5400 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 1050 5400 50  0001 C CNN "Vendor P/N"
+	1    1050 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB8334C
+P 2600 5150
+F 0 "R?" V 2393 5150 50  0000 C CNN
+F 1 "1k" V 2484 5150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 5150 50  0001 C CNN
+F 3 "~" H 2600 5150 50  0001 C CNN
+F 4 "Bourns" H 2600 5150 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 2600 5150 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 2600 5150 50  0001 C CNN "Vendor P/N"
+	1    2600 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 6500 2450 6500
+Wire Wire Line
+	2450 6500 2450 7100
+Wire Wire Line
+	2450 7100 2150 7100
+Connection ~ 2450 6500
+Wire Wire Line
+	2450 6500 2500 6500
+Wire Wire Line
+	2950 6550 2950 6500
+Wire Wire Line
+	2950 6500 2800 6500
+$Comp
+L power:GND #PWR?
+U 1 1 5FB83AAF
+P 2950 7000
+F 0 "#PWR?" H 2950 6750 50  0001 C CNN
+F 1 "GND" H 2955 6827 50  0000 C CNN
+F 2 "" H 2950 7000 50  0001 C CNN
+F 3 "" H 2950 7000 50  0001 C CNN
+	1    2950 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6850 2950 7000
+Text HLabel 3050 6500 2    50   Input ~ 0
+P_3_I
+Wire Wire Line
+	3050 6500 2950 6500
+Connection ~ 2950 6500
+$Comp
+L Device:C C?
+U 1 1 5FB83ABC
+P 2950 6700
+F 0 "C?" H 3065 6746 50  0000 L CNN
+F 1 "100pF" H 3065 6655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2988 6550 50  0001 C CNN
+F 3 "~" H 2950 6700 50  0001 C CNN
+F 4 "Wurth" H 2950 6700 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 2950 6700 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 2950 6700 50  0001 C CIN "Vendor P/N"
+	1    2950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB83AC5
+P 2650 6500
+F 0 "R?" V 2443 6500 50  0000 C CNN
+F 1 "1k" V 2534 6500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 6500 50  0001 C CNN
+F 3 "~" H 2650 6500 50  0001 C CNN
+F 4 "Bourns" H 2650 6500 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 2650 6500 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 2650 6500 50  0001 C CNN "Vendor P/N"
+	1    2650 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB88A8A
+P 2000 7100
+F 0 "R?" V 1793 7100 50  0000 C CNN
+F 1 "33k" V 1884 7100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1930 7100 50  0001 C CNN
+F 3 "~" H 2000 7100 50  0001 C CNN
+F 4 "Yageo" H 2000 7100 50  0001 C CNN "Manufacturer"
+F 5 "RT0603FRE0733KL" H 2000 7100 50  0001 C CNN "Manufacturer P/N"
+F 6 "YAG5959CT-ND" H 2000 7100 50  0001 C CNN "Vendor P/N"
+	1    2000 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FB8DF51
+P 1100 6050
+F 0 "R?" V 893 6050 50  0000 C CNN
+F 1 "1k" V 984 6050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 6050 50  0001 C CNN
+F 3 "~" H 1100 6050 50  0001 C CNN
+F 4 "Bourns" H 1100 6050 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 1100 6050 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 1100 6050 50  0001 C CNN "Vendor P/N"
+	1    1100 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB8DF5B
+P 1350 6200
+F 0 "C?" H 1465 6246 50  0000 L CNN
+F 1 "100pF" H 1465 6155 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1388 6050 50  0001 C CNN
+F 3 "~" H 1350 6200 50  0001 C CNN
+F 4 "Wurth" H 1350 6200 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 1350 6200 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 1350 6200 50  0001 C CIN "Vendor P/N"
+	1    1350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7100 1650 7100
+Wire Wire Line
+	1650 7100 1650 6750
+Wire Wire Line
+	1650 6600 1800 6600
+Wire Wire Line
+	1800 6050 1350 6050
+Connection ~ 1350 6050
+Wire Wire Line
+	1350 6050 1250 6050
+$Comp
+L power:GND #PWR?
+U 1 1 5FB8DF68
+P 1350 6400
+F 0 "#PWR?" H 1350 6150 50  0001 C CNN
+F 1 "GND" H 1355 6227 50  0000 C CNN
+F 2 "" H 1350 6400 50  0001 C CNN
+F 3 "" H 1350 6400 50  0001 C CNN
+	1    1350 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6350 1350 6400
+Text Label 550  6050 0    50   ~ 0
+P_3_SENSE
+Wire Wire Line
+	950  6050 550  6050
+$Comp
+L power:GND #PWR?
+U 1 1 5FB8DF71
+P 700 6900
+F 0 "#PWR?" H 700 6650 50  0001 C CNN
+F 1 "GND" H 705 6727 50  0000 C CNN
+F 2 "" H 700 6900 50  0001 C CNN
+F 3 "" H 700 6900 50  0001 C CNN
+	1    700  6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6750 700  6750
+Wire Wire Line
+	700  6750 700  6900
+Wire Wire Line
+	1250 6750 1650 6750
+Connection ~ 1650 6750
+Wire Wire Line
+	1650 6750 1650 6600
+$Comp
+L Device:R R?
+U 1 1 5FB8DF7F
+P 1100 6750
+F 0 "R?" V 893 6750 50  0000 C CNN
+F 1 "1k" V 984 6750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 1030 6750 50  0001 C CNN
+F 3 "~" H 1100 6750 50  0001 C CNN
+F 4 "Bourns" H 1100 6750 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 1100 6750 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 1100 6750 50  0001 C CNN "Vendor P/N"
+	1    1100 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 6050 1800 6400
+Wire Wire Line
+	5200 5250 5250 5250
+Wire Wire Line
+	5250 5250 5250 5850
+Wire Wire Line
+	5250 5850 4950 5850
+Connection ~ 5250 5250
+Wire Wire Line
+	5250 5250 5300 5250
+Wire Wire Line
+	5750 5300 5750 5250
+Wire Wire Line
+	5750 5250 5600 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA1639
+P 5750 5750
+F 0 "#PWR?" H 5750 5500 50  0001 C CNN
+F 1 "GND" H 5755 5577 50  0000 C CNN
+F 2 "" H 5750 5750 50  0001 C CNN
+F 3 "" H 5750 5750 50  0001 C CNN
+	1    5750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5600 5750 5750
+Text HLabel 5850 5250 2    50   Input ~ 0
+P_1_I
+Wire Wire Line
+	5850 5250 5750 5250
+Connection ~ 5750 5250
+$Comp
+L Device:C C?
+U 1 1 5FBA1646
+P 5750 5450
+F 0 "C?" H 5865 5496 50  0000 L CNN
+F 1 "100pF" H 5865 5405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5788 5300 50  0001 C CNN
+F 3 "~" H 5750 5450 50  0001 C CNN
+F 4 "Wurth" H 5750 5450 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 5750 5450 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 5750 5450 50  0001 C CIN "Vendor P/N"
+	1    5750 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBA1650
+P 5450 5250
+F 0 "R?" V 5243 5250 50  0000 C CNN
+F 1 "1k" V 5334 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5380 5250 50  0001 C CNN
+F 3 "~" H 5450 5250 50  0001 C CNN
+F 4 "Bourns" H 5450 5250 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 5450 5250 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 5450 5250 50  0001 C CNN "Vendor P/N"
+	1    5450 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBA165A
+P 4800 5850
+F 0 "R?" V 4593 5850 50  0000 C CNN
+F 1 "33k" V 4684 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4730 5850 50  0001 C CNN
+F 3 "~" H 4800 5850 50  0001 C CNN
+F 4 "Yageo" H 4800 5850 50  0001 C CNN "Manufacturer"
+F 5 "RT0603FRE0733KL" H 4800 5850 50  0001 C CNN "Manufacturer P/N"
+F 6 "YAG5959CT-ND" H 4800 5850 50  0001 C CNN "Vendor P/N"
+	1    4800 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBA1664
+P 3900 4800
+F 0 "R?" V 3693 4800 50  0000 C CNN
+F 1 "1k" V 3784 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3830 4800 50  0001 C CNN
+F 3 "~" H 3900 4800 50  0001 C CNN
+F 4 "Bourns" H 3900 4800 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 3900 4800 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 3900 4800 50  0001 C CNN "Vendor P/N"
+	1    3900 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBA166E
+P 4150 4950
+F 0 "C?" H 4265 4996 50  0000 L CNN
+F 1 "100pF" H 4265 4905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4188 4800 50  0001 C CNN
+F 3 "~" H 4150 4950 50  0001 C CNN
+F 4 "Wurth" H 4150 4950 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 4150 4950 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 4150 4950 50  0001 C CIN "Vendor P/N"
+	1    4150 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5850 4450 5850
+Wire Wire Line
+	4450 5850 4450 5500
+Wire Wire Line
+	4450 5350 4600 5350
+Wire Wire Line
+	4600 4800 4150 4800
+Connection ~ 4150 4800
+Wire Wire Line
+	4150 4800 4050 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA167B
+P 4150 5150
+F 0 "#PWR?" H 4150 4900 50  0001 C CNN
+F 1 "GND" H 4155 4977 50  0000 C CNN
+F 2 "" H 4150 5150 50  0001 C CNN
+F 3 "" H 4150 5150 50  0001 C CNN
+	1    4150 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5100 4150 5150
+Text Label 3350 4800 0    50   ~ 0
+P_1_SENSE
+Wire Wire Line
+	3750 4800 3350 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FBA1684
+P 3500 5650
+F 0 "#PWR?" H 3500 5400 50  0001 C CNN
+F 1 "GND" H 3505 5477 50  0000 C CNN
+F 2 "" H 3500 5650 50  0001 C CNN
+F 3 "" H 3500 5650 50  0001 C CNN
+	1    3500 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 5500 3500 5500
+Wire Wire Line
+	3500 5500 3500 5650
+Wire Wire Line
+	4050 5500 4450 5500
+Connection ~ 4450 5500
+Wire Wire Line
+	4450 5500 4450 5350
+$Comp
+L Device:R R?
+U 1 1 5FBA1692
+P 3900 5500
+F 0 "R?" V 3693 5500 50  0000 C CNN
+F 1 "1k" V 3784 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3830 5500 50  0001 C CNN
+F 3 "~" H 3900 5500 50  0001 C CNN
+F 4 "Bourns" H 3900 5500 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 3900 5500 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 3900 5500 50  0001 C CNN "Vendor P/N"
+	1    3900 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 4800 4600 5150
+Wire Wire Line
+	8750 5250 8800 5250
+Wire Wire Line
+	8800 5250 8800 5850
+Wire Wire Line
+	8800 5850 8500 5850
+Connection ~ 8800 5250
+Wire Wire Line
+	8800 5250 8850 5250
+Wire Wire Line
+	9300 5300 9300 5250
+Wire Wire Line
+	9300 5250 9150 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB9A8C
+P 9300 5750
+F 0 "#PWR?" H 9300 5500 50  0001 C CNN
+F 1 "GND" H 9305 5577 50  0000 C CNN
+F 2 "" H 9300 5750 50  0001 C CNN
+F 3 "" H 9300 5750 50  0001 C CNN
+	1    9300 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5600 9300 5750
+Text HLabel 9400 5250 2    50   Input ~ 0
+P_2_I
+Wire Wire Line
+	9400 5250 9300 5250
+Connection ~ 9300 5250
+$Comp
+L Device:C C?
+U 1 1 5FBB9A99
+P 9300 5450
+F 0 "C?" H 9415 5496 50  0000 L CNN
+F 1 "100pF" H 9415 5405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9338 5300 50  0001 C CNN
+F 3 "~" H 9300 5450 50  0001 C CNN
+F 4 "Wurth" H 9300 5450 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 9300 5450 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 9300 5450 50  0001 C CIN "Vendor P/N"
+	1    9300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBB9AA3
+P 9000 5250
+F 0 "R?" V 8793 5250 50  0000 C CNN
+F 1 "1k" V 8884 5250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8930 5250 50  0001 C CNN
+F 3 "~" H 9000 5250 50  0001 C CNN
+F 4 "Bourns" H 9000 5250 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 9000 5250 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 9000 5250 50  0001 C CNN "Vendor P/N"
+	1    9000 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBB9AAD
+P 8350 5850
+F 0 "R?" V 8143 5850 50  0000 C CNN
+F 1 "33k" V 8234 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8280 5850 50  0001 C CNN
+F 3 "~" H 8350 5850 50  0001 C CNN
+F 4 "Yageo" H 8350 5850 50  0001 C CNN "Manufacturer"
+F 5 "RT0603FRE0733KL" H 8350 5850 50  0001 C CNN "Manufacturer P/N"
+F 6 "YAG5959CT-ND" H 8350 5850 50  0001 C CNN "Vendor P/N"
+	1    8350 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FBB9AB7
+P 7450 4800
+F 0 "R?" V 7243 4800 50  0000 C CNN
+F 1 "1k" V 7334 4800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 4800 50  0001 C CNN
+F 3 "~" H 7450 4800 50  0001 C CNN
+F 4 "Bourns" H 7450 4800 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 7450 4800 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 7450 4800 50  0001 C CNN "Vendor P/N"
+	1    7450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FBB9AC1
+P 7700 4950
+F 0 "C?" H 7815 4996 50  0000 L CNN
+F 1 "100pF" H 7815 4905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7738 4800 50  0001 C CNN
+F 3 "~" H 7700 4950 50  0001 C CNN
+F 4 "Wurth" H 7700 4950 50  0001 C CNN "Manufacturer"
+F 5 "885012206053" H 7700 4950 50  0001 C CNN "Manufacturer P/N"
+F 6 "732-7972-1-ND" H 7700 4950 50  0001 C CIN "Vendor P/N"
+	1    7700 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5850 8000 5850
+Wire Wire Line
+	8000 5850 8000 5500
+Wire Wire Line
+	8000 5350 8150 5350
+Wire Wire Line
+	8150 4800 7700 4800
+Connection ~ 7700 4800
+Wire Wire Line
+	7700 4800 7600 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB9ACE
+P 7700 5150
+F 0 "#PWR?" H 7700 4900 50  0001 C CNN
+F 1 "GND" H 7705 4977 50  0000 C CNN
+F 2 "" H 7700 5150 50  0001 C CNN
+F 3 "" H 7700 5150 50  0001 C CNN
+	1    7700 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5100 7700 5150
+Text Label 6900 4800 0    50   ~ 0
+P_2_SENSE
+Wire Wire Line
+	7300 4800 6900 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5FBB9AD7
+P 7050 5650
+F 0 "#PWR?" H 7050 5400 50  0001 C CNN
+F 1 "GND" H 7055 5477 50  0000 C CNN
+F 2 "" H 7050 5650 50  0001 C CNN
+F 3 "" H 7050 5650 50  0001 C CNN
+	1    7050 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5500 7050 5500
+Wire Wire Line
+	7050 5500 7050 5650
+Wire Wire Line
+	7600 5500 8000 5500
+Connection ~ 8000 5500
+Wire Wire Line
+	8000 5500 8000 5350
+$Comp
+L Device:R R?
+U 1 1 5FBB9AE5
+P 7450 5500
+F 0 "R?" V 7243 5500 50  0000 C CNN
+F 1 "1k" V 7334 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7380 5500 50  0001 C CNN
+F 3 "~" H 7450 5500 50  0001 C CNN
+F 4 "Bourns" H 7450 5500 50  0001 C CNN "Manufacturer"
+F 5 "CR0603AFX-1001ELF" H 7450 5500 50  0001 C CNN "Manufacturer P/N"
+F 6 "118-CR0603AFX-1001ELFCT-ND" H 7450 5500 50  0001 C CNN "Vendor P/N"
+	1    7450 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4800 8150 5150
+Wire Wire Line
+	5200 6550 5200 6450
+Wire Wire Line
+	5200 6450 4850 6450
+Wire Wire Line
+	5200 6850 5200 7050
+Wire Wire Line
+	5200 7050 4850 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5FBE14E1
+P 4850 7050
+F 0 "#PWR?" H 4850 6800 50  0001 C CNN
+F 1 "GND" H 4855 6877 50  0000 C CNN
+F 2 "" H 4850 7050 50  0001 C CNN
+F 3 "" H 4850 7050 50  0001 C CNN
+	1    4850 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4850 7050
+Wire Wire Line
+	4850 7050 4500 7050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FBE1641
+P 4850 6350
+F 0 "#PWR?" H 4850 6200 50  0001 C CNN
+F 1 "+3V3" H 4865 6523 50  0000 C CNN
+F 2 "" H 4850 6350 50  0001 C CNN
+F 3 "" H 4850 6350 50  0001 C CNN
+	1    4850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 6350 4850 6450
+Connection ~ 4850 6450
+Wire Wire Line
+	4850 6450 4500 6450
 $EndSCHEMATC
