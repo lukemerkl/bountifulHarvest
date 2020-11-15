@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bountifulHarvest-rescue)(type Legacy)(uri ${KIPRJMOD}/bountifulHarvest-rescue.lib)(options "")(descr ""))
+)
