@@ -18,8 +18,8 @@ $Comp
 L bountifulHarvest-rescue:TMC2130-LA-Driver_Motor U?
 U 1 1 5EEE6C49
 P 2650 3150
-F 0 "U?" H 2650 1861 50  0000 C CNN
-F 1 "TMC2130-LA" H 2650 1770 50  0000 C CNN
+F 0 "U?" H 3200 1950 50  0000 C CNN
+F 1 "TMC2130-LA" H 3050 1750 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-36-1EP_5x6mm_P0.5mm_EP3.6x4.1mm" H 2650 1550 50  0001 C CNN
 F 3 "http://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2130_datasheet.pdf" H 2650 1450 50  0001 C CNN
 	1    2650 3150
@@ -162,8 +162,10 @@ U 1 1 5FBF036B
 P 3650 1800
 F 0 "C?" H 3765 1846 50  0000 L CNN
 F 1 "C" H 3765 1755 50  0000 L CNN
-F 2 "" H 3688 1650 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 1650 50  0001 C CNN
 F 3 "~" H 3650 1800 50  0001 C CNN
+F 4 "Digi-Key" H 3650 1800 50  0001 C CNN "Vendor"
+F 5 "1276-6557-1-ND" H 3650 1800 50  0001 C CNN "Vendor P/N"
 	1    3650 1800
 	1    0    0    -1  
 $EndComp
@@ -195,9 +197,11 @@ L Device:C C?
 U 1 1 5FBF0D8A
 P 3650 2500
 F 0 "C?" H 3765 2546 50  0000 L CNN
-F 1 "C" H 3765 2455 50  0000 L CNN
-F 2 "" H 3688 2350 50  0001 C CNN
+F 1 "22nF" H 3765 2455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3688 2350 50  0001 C CNN
 F 3 "~" H 3650 2500 50  0001 C CNN
+F 4 "Digi-Key" H 3650 2500 50  0001 C CNN "Vendor"
+F 5 "311-3176-1-ND" H 3650 2500 50  0001 C CNN "Vendor P/N"
 	1    3650 2500
 	1    0    0    -1  
 $EndComp
@@ -288,28 +292,6 @@ Wire Wire Line
 	3750 4150 3350 4150
 Wire Wire Line
 	3350 3950 3650 3950
-$Comp
-L Device:R R?
-U 1 1 5FED57CD
-P 650 3550
-F 0 "R?" H 720 3596 50  0000 L CNN
-F 1 "R" H 720 3505 50  0000 L CNN
-F 2 "" V 580 3550 50  0001 C CNN
-F 3 "~" H 650 3550 50  0001 C CNN
-	1    650  3550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5FED581D
-P 650 4100
-F 0 "R?" H 720 4146 50  0000 L CNN
-F 1 "R" H 720 4055 50  0000 L CNN
-F 2 "" V 580 4100 50  0001 C CNN
-F 3 "~" H 650 4100 50  0001 C CNN
-	1    650  4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1950 3850 650  3850
 Wire Wire Line
@@ -400,4 +382,257 @@ F 6 "311-0.12TCT-ND" H 3800 3950 50  0001 C CNN "Vendor P/N"
 	1    3800 3950
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF081DE
+P 650 3550
+AR Path="/5F08C095/5FF081DE" Ref="R?"  Part="1" 
+AR Path="/5EEE69C6/5FF081DE" Ref="R?"  Part="1" 
+F 0 "R?" H 720 3596 50  0000 L CNN
+F 1 "10k" H 720 3505 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 580 3550 50  0001 C CNN
+F 3 "~" H 650 3550 50  0001 C CNN
+F 4 "Vishay Dale" H 650 3550 50  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEAC" H 650 3550 50  0001 C CNN "Manufacturer P/N"
+F 6 "541-5136-1-ND" H 650 3550 50  0001 C CNN "Vendor P/N"
+	1    650  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF09008
+P 650 4100
+AR Path="/5F08C095/5FF09008" Ref="R?"  Part="1" 
+AR Path="/5EEE69C6/5FF09008" Ref="R?"  Part="1" 
+F 0 "R?" H 720 4146 50  0000 L CNN
+F 1 "10k" H 720 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 580 4100 50  0001 C CNN
+F 3 "~" H 650 4100 50  0001 C CNN
+F 4 "Vishay Dale" H 650 4100 50  0001 C CNN "Manufacturer"
+F 5 "CRCW060310K0FKEAC" H 650 4100 50  0001 C CNN "Manufacturer P/N"
+F 6 "541-5136-1-ND" H 650 4100 50  0001 C CNN "Vendor P/N"
+	1    650  4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF09F47
+P 2550 4700
+F 0 "#PWR?" H 2550 4450 50  0001 C CNN
+F 1 "GND" H 2555 4527 50  0000 C CNN
+F 2 "" H 2550 4700 50  0001 C CNN
+F 3 "" H 2550 4700 50  0001 C CNN
+	1    2550 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4350 2550 4650
+Wire Wire Line
+	2550 4650 2650 4650
+Wire Wire Line
+	2750 4650 2750 4350
+Wire Wire Line
+	2650 4350 2650 4650
+Connection ~ 2650 4650
+Wire Wire Line
+	2650 4650 2750 4650
+Wire Wire Line
+	2550 4700 2550 4650
+Connection ~ 2550 4650
+Text Label 1750 3550 2    50   ~ 0
+X_DIAG0
+Wire Wire Line
+	1950 3550 1750 3550
+Wire Wire Line
+	1950 3650 1750 3650
+Text Label 1750 3650 2    50   ~ 0
+X_DIAG1
+Text Label 900  5350 2    50   ~ 0
+X_DIAG0
+Text Label 900  6950 2    50   ~ 0
+X_DIAG1
+$Comp
+L Device:R R?
+U 1 1 5FF10581
+P 1200 5050
+F 0 "R?" H 1270 5096 50  0000 L CNN
+F 1 "R" H 1270 5005 50  0000 L CNN
+F 2 "" V 1130 5050 50  0001 C CNN
+F 3 "~" H 1200 5050 50  0001 C CNN
+	1    1200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF105C3
+P 1200 5600
+F 0 "R?" H 1270 5646 50  0000 L CNN
+F 1 "R" H 1270 5555 50  0000 L CNN
+F 2 "" V 1130 5600 50  0001 C CNN
+F 3 "~" H 1200 5600 50  0001 C CNN
+	1    1200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF106CF
+P 1200 6750
+F 0 "R?" H 1270 6796 50  0000 L CNN
+F 1 "R" H 1270 6705 50  0000 L CNN
+F 2 "" V 1130 6750 50  0001 C CNN
+F 3 "~" H 1200 6750 50  0001 C CNN
+	1    1200 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FF106D6
+P 1200 7250
+F 0 "R?" H 1270 7296 50  0000 L CNN
+F 1 "R" H 1270 7205 50  0000 L CNN
+F 2 "" V 1130 7250 50  0001 C CNN
+F 3 "~" H 1200 7250 50  0001 C CNN
+	1    1200 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF11832
+P 1200 4850
+F 0 "#PWR?" H 1200 4700 50  0001 C CNN
+F 1 "+5V" H 1215 5023 50  0000 C CNN
+F 2 "" H 1200 4850 50  0001 C CNN
+F 3 "" H 1200 4850 50  0001 C CNN
+	1    1200 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FF1185D
+P 1200 6550
+F 0 "#PWR?" H 1200 6400 50  0001 C CNN
+F 1 "+5V" H 1215 6723 50  0000 C CNN
+F 2 "" H 1200 6550 50  0001 C CNN
+F 3 "" H 1200 6550 50  0001 C CNN
+	1    1200 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5200 1200 5350
+Wire Wire Line
+	900  5350 1000 5350
+Connection ~ 1200 5350
+Wire Wire Line
+	1200 5350 1200 5450
+Wire Wire Line
+	1200 6900 1200 6950
+Wire Wire Line
+	900  6950 950  6950
+Connection ~ 1200 6950
+Wire Wire Line
+	1200 6950 1200 7100
+$Comp
+L power:GND #PWR?
+U 1 1 5FF17820
+P 1200 5850
+F 0 "#PWR?" H 1200 5600 50  0001 C CNN
+F 1 "GND" H 1205 5677 50  0000 C CNN
+F 2 "" H 1200 5850 50  0001 C CNN
+F 3 "" H 1200 5850 50  0001 C CNN
+	1    1200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FF1784B
+P 1200 7500
+F 0 "#PWR?" H 1200 7250 50  0001 C CNN
+F 1 "GND" H 1205 7327 50  0000 C CNN
+F 2 "" H 1200 7500 50  0001 C CNN
+F 3 "" H 1200 7500 50  0001 C CNN
+	1    1200 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 5750 1200 5850
+Wire Wire Line
+	1200 7400 1200 7500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FF1A7BC
+P 1000 5300
+F 0 "TP?" H 1058 5374 50  0000 L CNN
+F 1 "TestPoint" H 1058 5329 50  0001 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1200 5300 50  0001 C CNN
+F 3 "~" H 1200 5300 50  0001 C CNN
+	1    1000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 5300 1000 5350
+Connection ~ 1000 5350
+Wire Wire Line
+	1000 5350 1200 5350
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FF1BF56
+P 950 6900
+F 0 "TP?" H 1008 6974 50  0000 L CNN
+F 1 "TestPoint" H 1008 6929 50  0001 L CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1150 6900 50  0001 C CNN
+F 3 "~" H 1150 6900 50  0001 C CNN
+	1    950  6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  6900 950  6950
+Connection ~ 950  6950
+Wire Wire Line
+	950  6950 1200 6950
+Wire Wire Line
+	1200 6550 1200 6600
+Wire Wire Line
+	1200 4850 1200 4900
+Text Notes 1100 4050 0    50   ~ 0
+INTERNAL_PULLUP
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5FF21507
+P 1300 4300
+F 0 "J?" H 1406 4478 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1406 4387 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1300 4300 50  0001 C CNN
+F 3 "~" H 1300 4300 50  0001 C CNN
+	1    1300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 4150 1800 4150
+Wire Wire Line
+	1800 4150 1800 4300
+Wire Wire Line
+	1800 4300 1500 4300
+$Comp
+L power:GND #PWR?
+U 1 1 5FF2322D
+P 1750 4450
+F 0 "#PWR?" H 1750 4200 50  0001 C CNN
+F 1 "GND" H 1755 4277 50  0000 C CNN
+F 2 "" H 1750 4450 50  0001 C CNN
+F 3 "" H 1750 4450 50  0001 C CNN
+	1    1750 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4450 1750 4400
+Wire Wire Line
+	1750 4400 1500 4400
+Wire Notes Line
+	1850 4050 1050 4050
+Wire Notes Line
+	1050 4050 1050 3950
+Wire Notes Line
+	1050 3950 1800 3950
+Wire Notes Line
+	1800 3950 1800 4050
 $EndSCHEMATC
