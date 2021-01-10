@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bountifulHarvest-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -81,4 +82,132 @@ Wire Wire Line
 	5300 2850 6000 2850
 Wire Wire Line
 	6000 2950 5300 2950
+Wire Wire Line
+	7700 4550 7800 4550
+Wire Wire Line
+	7700 4650 7800 4650
+Wire Wire Line
+	7700 4750 7800 4750
+Wire Wire Line
+	7700 4850 7800 4850
+Wire Wire Line
+	7700 4950 7800 4950
+Text Label 7700 4550 2    39   ~ 0
+X_0
+Text Label 7700 4650 2    39   ~ 0
+X_1
+Text Label 7700 4750 2    39   ~ 0
+X_2
+Text Label 7700 4850 2    39   ~ 0
+X_3
+Text Label 7700 4950 2    39   ~ 0
+X_4
+Entry Wire Line
+	7800 4550 7900 4650
+Entry Wire Line
+	7800 4650 7900 4750
+Entry Wire Line
+	7800 4750 7900 4850
+Entry Wire Line
+	7800 4850 7900 4950
+Entry Wire Line
+	7800 4950 7900 5050
+Wire Bus Line
+	7900 4250 8000 4250
+Wire Wire Line
+	5400 4350 5300 4350
+Wire Wire Line
+	5400 4450 5300 4450
+Wire Wire Line
+	5400 4550 5300 4550
+Wire Wire Line
+	5400 4650 5300 4650
+Wire Wire Line
+	5400 4750 5300 4750
+Text Label 5400 4350 0    39   ~ 0
+X_0
+Text Label 5400 4450 0    39   ~ 0
+X_1
+Text Label 5400 4550 0    39   ~ 0
+X_2
+Text Label 5400 4650 0    39   ~ 0
+X_3
+Text Label 5400 4750 0    39   ~ 0
+X_4
+Text HLabel 8000 4250 2    79   Input ~ 0
+X_[0..4]
+Entry Wire Line
+	8600 4550 8700 4650
+Entry Wire Line
+	8600 4650 8700 4750
+Entry Wire Line
+	8600 4750 8700 4850
+Entry Wire Line
+	8600 4850 8700 4950
+Entry Wire Line
+	8600 4950 8700 5050
+Text HLabel 8800 4250 2    79   Input ~ 0
+Y_[0..4]
+Wire Bus Line
+	8700 4250 8800 4250
+Entry Wire Line
+	9250 4550 9350 4650
+Entry Wire Line
+	9250 4650 9350 4750
+Entry Wire Line
+	9250 4750 9350 4850
+Entry Wire Line
+	9250 4850 9350 4950
+Entry Wire Line
+	9250 4950 9350 5050
+Text HLabel 9450 4250 2    79   Input ~ 0
+Z_[0..4]
+Wire Bus Line
+	9350 4250 9450 4250
+Text Label 8450 4550 0    59   ~ 0
+Y_0
+Text Label 8450 4650 0    59   ~ 0
+Y_1
+Text Label 8450 4750 0    59   ~ 0
+Y_2
+Text Label 8450 4850 0    59   ~ 0
+Y_3
+Text Label 8450 4950 0    59   ~ 0
+Y_4
+Wire Wire Line
+	8600 4550 8450 4550
+Wire Wire Line
+	8600 4650 8450 4650
+Wire Wire Line
+	8600 4750 8450 4750
+Wire Wire Line
+	8600 4850 8450 4850
+Wire Wire Line
+	8600 4950 8450 4950
+Text Label 9100 4550 0    59   ~ 0
+Z_0
+Text Label 9100 4650 0    59   ~ 0
+Z_1
+Text Label 9100 4750 0    59   ~ 0
+Z_2
+Text Label 9100 4850 0    59   ~ 0
+Z_3
+Text Label 9100 4950 0    59   ~ 0
+Z_4
+Wire Wire Line
+	9100 4550 9250 4550
+Wire Wire Line
+	9100 4650 9250 4650
+Wire Wire Line
+	9100 4750 9250 4750
+Wire Wire Line
+	9100 4850 9250 4850
+Wire Wire Line
+	9100 4950 9250 4950
+Wire Bus Line
+	7900 4250 7900 5200
+Wire Bus Line
+	8700 4250 8700 5200
+Wire Bus Line
+	9350 4250 9350 5200
 $EndSCHEMATC
