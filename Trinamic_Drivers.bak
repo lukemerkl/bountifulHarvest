@@ -2126,21 +2126,15 @@ Text Label 5900 2300 0    39   ~ 0
 DIR_Y
 Text Label 5900 2800 0    39   ~ 0
 EN_Y
-Text Label 1750 3050 2    50   ~ 0
-X_DIAG
 Connection ~ 1850 3050
 Wire Wire Line
 	1950 2050 1350 2050
 Wire Wire Line
 	1950 1950 1350 1950
-Wire Wire Line
-	1950 1850 1350 1850
 Text HLabel 1350 2050 0    50   Input ~ 0
 SDO_SPI
 Text HLabel 1350 1950 0    50   Input ~ 0
 SDI_SPI
-Text HLabel 1350 1850 0    50   Input ~ 0
-SCK_SPI
 $Comp
 L power:GND #PWR?
 U 1 1 5FF98E63
@@ -2219,14 +2213,6 @@ Text Label 1300 5600 2    39   ~ 0
 SDI_SPI
 Text Label 1300 5700 2    39   ~ 0
 SDO_SPI
-Text Label 1500 1750 0    39   ~ 0
-~CS~_SPI_X
-Text Label 1500 2250 0    39   ~ 0
-STEP_X
-Text Label 1500 2350 0    39   ~ 0
-DIR_X
-Text Label 1500 2850 0    39   ~ 0
-EN_X
 Wire Wire Line
 	4550 7050 4700 7050
 Wire Wire Line
@@ -2257,8 +2243,6 @@ Text Label 1250 2850 2    39   ~ 0
 X_3
 Text Label 1250 3050 2    39   ~ 0
 X_4
-Wire Wire Line
-	1250 1750 1950 1750
 Wire Wire Line
 	1250 2250 1950 2250
 Wire Wire Line
@@ -2389,10 +2373,26 @@ Wire Wire Line
 	1150 6700 1800 6700
 Wire Wire Line
 	950  6500 1900 6500
+Wire Wire Line
+	1950 1750 1250 1750
+Text HLabel 1350 1850 0    50   Input ~ 0
+SCK_SPI
+Wire Wire Line
+	1950 1850 1350 1850
 Wire Bus Line
 	4800 6750 4800 7700
 Wire Bus Line
 	5550 6750 5550 7700
 Wire Bus Line
 	6200 6750 6200 7700
+Text Label 1500 1750 0    39   ~ 0
+~CS~_SPI_X
+Text Label 1500 2250 0    39   ~ 0
+STEP_X
+Text Label 1500 2350 0    39   ~ 0
+DIR_Y
+Text Label 1550 2850 0    39   ~ 0
+EN_X
+Text Label 1800 3050 2    50   ~ 0
+X_DIAG
 $EndSCHEMATC

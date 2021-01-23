@@ -62,79 +62,41 @@ Wire Wire Line
 	5300 2550 5650 2550
 Wire Wire Line
 	5650 2400 5650 2550
-Text HLabel 6000 2650 2    50   Input ~ 0
-~CS~_SPI_SPARE
 Text HLabel 6000 2750 2    50   Input ~ 0
 SCK_SPI
 Text HLabel 6000 2850 2    50   Input ~ 0
 SDI_SPI
 Text HLabel 6000 2950 2    50   Input ~ 0
 SDO_SPI
-Text HLabel 6900 3550 2    50   Input ~ 0
-STEP_SPARE
-Text HLabel 6900 3650 2    50   Input ~ 0
-DIR_SPARE
-Wire Wire Line
-	5300 2650 6000 2650
 Wire Wire Line
 	6000 2750 5300 2750
 Wire Wire Line
 	5300 2850 6000 2850
 Wire Wire Line
 	6000 2950 5300 2950
-Wire Wire Line
-	7700 4550 7800 4550
-Wire Wire Line
-	7700 4650 7800 4650
-Wire Wire Line
-	7700 4750 7800 4750
-Wire Wire Line
-	7700 4850 7800 4850
-Wire Wire Line
-	7700 4950 7800 4950
-Text Label 7700 4550 2    39   ~ 0
+Text Label 7350 4550 2    39   ~ 0
 X_0
-Text Label 7700 4650 2    39   ~ 0
+Text Label 7350 4650 2    39   ~ 0
 X_1
-Text Label 7700 4750 2    39   ~ 0
+Text Label 7350 4750 2    39   ~ 0
 X_2
-Text Label 7700 4850 2    39   ~ 0
+Text Label 7350 4850 2    39   ~ 0
 X_3
-Text Label 7700 4950 2    39   ~ 0
+Text Label 7350 4950 2    39   ~ 0
 X_4
 Entry Wire Line
-	7800 4550 7900 4650
+	7650 4550 7750 4650
 Entry Wire Line
-	7800 4650 7900 4750
+	7650 4650 7750 4750
 Entry Wire Line
-	7800 4750 7900 4850
+	7650 4750 7750 4850
 Entry Wire Line
-	7800 4850 7900 4950
+	7650 4850 7750 4950
 Entry Wire Line
-	7800 4950 7900 5050
+	7650 4950 7750 5050
 Wire Bus Line
-	7900 4250 8000 4250
-Wire Wire Line
-	5400 4350 5300 4350
-Wire Wire Line
-	5400 4450 5300 4450
-Wire Wire Line
-	5400 4550 5300 4550
-Wire Wire Line
-	5400 4650 5300 4650
-Wire Wire Line
-	5400 4750 5300 4750
-Text Label 5400 4350 0    39   ~ 0
-X_0
-Text Label 5400 4450 0    39   ~ 0
-X_1
-Text Label 5400 4550 0    39   ~ 0
-X_2
-Text Label 5400 4650 0    39   ~ 0
-X_3
-Text Label 5400 4750 0    39   ~ 0
-X_4
-Text HLabel 8000 4250 2    79   Input ~ 0
+	7750 4250 7850 4250
+Text HLabel 7850 4250 2    79   Input ~ 0
 X_[0..4]
 Entry Wire Line
 	8600 4550 8700 4650
@@ -204,8 +166,78 @@ Wire Wire Line
 	9100 4850 9250 4850
 Wire Wire Line
 	9100 4950 9250 4950
+Wire Wire Line
+	7350 4550 7650 4550
+Wire Wire Line
+	7350 4650 7650 4650
+Wire Wire Line
+	7350 4750 7650 4750
+Wire Wire Line
+	7350 4850 7650 4850
+Wire Wire Line
+	7350 4950 7650 4950
+Text Label 5850 4650 2    39   ~ 0
+X_0
+Text Label 5850 4750 2    39   ~ 0
+X_1
+Text Label 5850 4850 2    39   ~ 0
+X_2
+Text Label 5850 4950 2    39   ~ 0
+X_3
+Text Label 5850 5050 2    39   ~ 0
+X_4
+Wire Wire Line
+	5300 4650 5950 4650
+Wire Wire Line
+	5300 4750 5950 4750
+Wire Wire Line
+	5300 4850 5950 4850
+Wire Wire Line
+	5300 4950 5950 4950
+Wire Wire Line
+	5300 5050 5950 5050
+Text Label 5450 5250 0    59   ~ 0
+Y_0
+Text Label 5450 5350 0    59   ~ 0
+Y_1
+Text Label 5450 5450 0    59   ~ 0
+Y_2
+Text Label 5450 5550 0    59   ~ 0
+Y_3
+Text Label 5450 5650 0    59   ~ 0
+Y_4
+Wire Wire Line
+	5300 5250 5600 5250
+Text Label 3300 5250 0    59   ~ 0
+Z_0
+Text Label 3300 5350 0    59   ~ 0
+Z_1
+Text Label 3300 5450 0    59   ~ 0
+Z_2
+Text Label 3300 5550 0    59   ~ 0
+Z_3
+Text Label 3300 5650 0    59   ~ 0
+Z_4
+Wire Wire Line
+	5300 5350 5600 5350
+Wire Wire Line
+	5300 5450 5600 5450
+Wire Wire Line
+	5300 5550 5600 5550
+Wire Wire Line
+	5300 5650 5600 5650
+Wire Wire Line
+	3300 5250 3700 5250
+Wire Wire Line
+	3300 5350 3700 5350
+Wire Wire Line
+	3300 5450 3700 5450
+Wire Wire Line
+	3300 5550 3700 5550
+Wire Wire Line
+	3300 5650 3700 5650
 Wire Bus Line
-	7900 4250 7900 5200
+	7750 4250 7750 5200
 Wire Bus Line
 	8700 4250 8700 5200
 Wire Bus Line
