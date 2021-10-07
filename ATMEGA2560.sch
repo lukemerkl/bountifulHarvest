@@ -41,29 +41,29 @@ F 4 "1%" H 5720 1259 50  0000 L CNN "Tolerance"
 	1    5650 1350
 	1    0    0    -1  
 $EndComp
-Text HLabel 5800 1650 2    50   Output ~ 0
+Text HLabel 6250 1650 2    50   Output ~ 0
 ~SS_cop
 Wire Wire Line
 	5650 1500 5650 1650
 Connection ~ 5650 1650
 Wire Wire Line
-	5650 1650 5800 1650
+	5650 1650 6250 1650
 $Comp
 L Device:R R2
 U 1 1 5EE7AE50
-P 5650 2250
-F 0 "R2" H 5720 2341 50  0000 L CNN
-F 1 "10K" H 5720 2250 50  0000 L CNN
-F 2 "" V 5580 2250 50  0001 C CNN
-F 3 "~" H 5650 2250 50  0001 C CNN
-F 4 "1%" H 5720 2159 50  0000 L CNN "Tolerance"
-	1    5650 2250
+P 6750 2250
+F 0 "R2" H 6820 2341 50  0000 L CNN
+F 1 "10K" H 6820 2250 50  0000 L CNN
+F 2 "" V 6680 2250 50  0001 C CNN
+F 3 "~" H 6750 2250 50  0001 C CNN
+F 4 "1%" H 6820 2159 50  0000 L CNN "Tolerance"
+	1    6750 2250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 2550 5650 2550
+	5300 2550 6750 2550
 Wire Wire Line
-	5650 2400 5650 2550
+	6750 2400 6750 2550
 Text HLabel 6000 2750 2    50   Input ~ 0
 SCK_SPI
 Text HLabel 6000 2850 2    50   Input ~ 0
@@ -238,10 +238,106 @@ Wire Wire Line
 	3300 5550 3700 5550
 Wire Wire Line
 	3300 5650 3700 5650
+Wire Wire Line
+	2900 900  3150 900 
+Wire Wire Line
+	2900 1000 3150 1000
+Wire Wire Line
+	2900 1100 3150 1100
+Wire Wire Line
+	2900 1200 3150 1200
+Wire Wire Line
+	2900 1300 3150 1300
+Entry Wire Line
+	3150 900  3250 1000
+Entry Wire Line
+	3150 1000 3250 1100
+Entry Wire Line
+	3150 1100 3250 1200
+Entry Wire Line
+	3150 1200 3250 1300
+Entry Wire Line
+	3150 1300 3250 1400
+Text HLabel 3350 600  2    79   Input ~ 0
+X2_[0..4]
+Wire Bus Line
+	3250 600  3350 600 
+Text Label 2900 900  0    59   ~ 0
+X2_0
+Text Label 2900 1000 0    59   ~ 0
+X2_1
+Text Label 2900 1100 0    59   ~ 0
+X2_2
+Text Label 2900 1200 0    59   ~ 0
+X2_3
+Text Label 2900 1300 0    59   ~ 0
+X2_4
+Wire Wire Line
+	3450 4350 3700 4350
+Wire Wire Line
+	3450 4450 3700 4450
+Wire Wire Line
+	3450 4550 3700 4550
+Wire Wire Line
+	3450 4650 3700 4650
+Wire Wire Line
+	3450 4750 3700 4750
+Text Label 3450 4350 0    59   ~ 0
+X2_0
+Text Label 3450 4450 0    59   ~ 0
+X2_1
+Text Label 3450 4550 0    59   ~ 0
+X2_2
+Text Label 3450 4650 0    59   ~ 0
+X2_3
+Text Label 3450 4750 0    59   ~ 0
+X2_4
+Text HLabel 5500 6150 2    59   Input ~ 0
+P_0_I
+Text HLabel 5500 6250 2    59   Input ~ 0
+P_1_I
+Text HLabel 5500 6350 2    59   Input ~ 0
+P_2_I
+Text HLabel 5500 6450 2    59   Input ~ 0
+P_3_I
+Wire Wire Line
+	5300 6150 5500 6150
+Wire Wire Line
+	5300 6250 5500 6250
+Wire Wire Line
+	5300 6350 5500 6350
+Wire Wire Line
+	5300 6450 5500 6450
+Text Label 6000 2050 0    59   ~ 0
+X_1
+Text Label 6000 2150 0    59   ~ 0
+X_2
+Wire Wire Line
+	6000 2050 5300 2050
+Wire Wire Line
+	6000 2150 5300 2150
+Text Label 5750 2050 2    39   ~ 0
+STEP_X
+Text Label 5750 2150 2    39   ~ 0
+DIR_X
+Text Label 6000 1950 0    59   ~ 0
+X_3
+Wire Wire Line
+	6000 1950 5300 1950
+Text Label 5750 1950 2    39   ~ 0
+EN_X
+Text Label 6000 1850 0    59   ~ 0
+X_0
+Wire Wire Line
+	6000 1850 5300 1850
+Text Label 5750 1850 2    39   ~ 0
+~CS~_SPI_X
 Wire Bus Line
 	1000 550  1000 1500
 Wire Bus Line
 	1700 550  1700 1500
 Wire Bus Line
 	2350 550  2350 1500
+Wire Bus Line
+	3250 600  3250 1550
 $EndSCHEMATC

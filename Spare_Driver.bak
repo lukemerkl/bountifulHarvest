@@ -1713,10 +1713,6 @@ Wire Wire Line
 	800  1450 550  1450
 Wire Wire Line
 	1800 1050 1600 1050
-Wire Bus Line
-	900  750  900  1700
-Wire Bus Line
-	1900 750  1900 1700
 Wire Wire Line
 	1800 1150 1600 1150
 Wire Wire Line
@@ -1735,4 +1731,44 @@ Text Label 1600 1350 0    39   ~ 0
 X2_3
 Text Label 1600 1450 0    39   ~ 0
 X2_4
+Wire Wire Line
+	7500 1050 7750 1050
+Wire Wire Line
+	7500 1150 7750 1150
+Wire Wire Line
+	7500 1250 7750 1250
+Wire Wire Line
+	7500 1350 7750 1350
+Wire Wire Line
+	7500 1450 7750 1450
+Entry Wire Line
+	7750 1050 7850 1150
+Entry Wire Line
+	7750 1150 7850 1250
+Entry Wire Line
+	7750 1250 7850 1350
+Entry Wire Line
+	7750 1350 7850 1450
+Entry Wire Line
+	7750 1450 7850 1550
+Text HLabel 7950 750  2    79   Input ~ 0
+X2_[0..4]
+Wire Bus Line
+	7850 750  7950 750 
+Text Label 7500 1050 0    59   ~ 0
+X2_0
+Text Label 7500 1150 0    59   ~ 0
+X2_1
+Text Label 7500 1250 0    59   ~ 0
+X2_2
+Text Label 7500 1350 0    59   ~ 0
+X2_3
+Text Label 7500 1450 0    59   ~ 0
+X2_4
+Wire Bus Line
+	900  750  900  1700
+Wire Bus Line
+	1900 750  1900 1700
+Wire Bus Line
+	7850 750  7850 1700
 $EndSCHEMATC

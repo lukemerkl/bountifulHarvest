@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -2379,12 +2379,6 @@ Text HLabel 1350 1850 0    50   Input ~ 0
 SCK_SPI
 Wire Wire Line
 	1950 1850 1350 1850
-Wire Bus Line
-	4800 6750 4800 7700
-Wire Bus Line
-	5550 6750 5550 7700
-Wire Bus Line
-	6200 6750 6200 7700
 Text Label 1500 1750 0    39   ~ 0
 ~CS~_SPI_X
 Text Label 1500 2250 0    39   ~ 0
@@ -2395,4 +2389,10 @@ Text Label 1550 2850 0    39   ~ 0
 EN_X
 Text Label 1800 3050 2    50   ~ 0
 X_DIAG
+Wire Bus Line
+	4800 6750 4800 7700
+Wire Bus Line
+	5550 6750 5550 7700
+Wire Bus Line
+	6200 6750 6200 7700
 $EndSCHEMATC
