@@ -149,7 +149,7 @@ U 1 1 5F09C9DC
 P 2050 5150
 F 0 "U5" H 2050 5517 50  0000 C CNN
 F 1 "LM324A" H 2050 5426 50  0000 C CNN
-F 2 "" H 2000 5250 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2000 5250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2100 5350 50  0001 C CNN
 	1    2050 5150
 	1    0    0    -1  
