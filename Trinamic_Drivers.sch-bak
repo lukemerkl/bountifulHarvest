@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bountifulHarvest-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -853,17 +854,11 @@ F 3 "" H 8500 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 1700 5750 1700
-Wire Wire Line
 	6350 1800 5750 1800
 Wire Wire Line
 	6350 1900 5750 1900
 Wire Wire Line
 	6350 2000 5750 2000
-Wire Wire Line
-	5750 2200 6350 2200
-Wire Wire Line
-	5750 2300 6350 2300
 Wire Wire Line
 	7900 3600 7750 3600
 Wire Wire Line
@@ -1116,8 +1111,6 @@ Wire Notes Line
 	6200 3400 6200 3500
 NoConn ~ 6350 2400
 NoConn ~ 6350 2600
-Wire Wire Line
-	5750 2800 6350 2800
 Wire Wire Line
 	6950 1400 6950 1300
 Wire Wire Line
@@ -1425,24 +1418,12 @@ Wire Wire Line
 	1900 5300 700  5300
 Wire Wire Line
 	700  5300 700  5350
-Text HLabel 1300 5400 0    50   Input ~ 0
-~CS~_SPI_Z
-Wire Wire Line
-	1900 5400 1300 5400
 Wire Wire Line
 	1900 5500 1300 5500
 Wire Wire Line
 	1900 5600 1300 5600
 Wire Wire Line
 	1900 5700 1300 5700
-Text HLabel 1300 5900 0    50   Input ~ 0
-STEP_Z
-Text HLabel 1300 6000 0    50   Input ~ 0
-DIR_Z
-Wire Wire Line
-	1300 5900 1900 5900
-Wire Wire Line
-	1300 6000 1900 6000
 Wire Wire Line
 	3450 7300 3300 7300
 Wire Wire Line
@@ -1710,10 +1691,6 @@ Wire Wire Line
 	1900 6200 1200 6200
 Wire Wire Line
 	1200 6200 1200 6250
-Text HLabel 1300 6500 0    50   Input ~ 0
-EN_Z
-Wire Wire Line
-	1300 6500 1900 6500
 Wire Wire Line
 	2500 5100 2500 5000
 Wire Wire Line
@@ -2138,12 +2115,6 @@ Wire Wire Line
 Wire Wire Line
 	8500 6300 9150 6300
 Wire Wire Line
-	5750 3000 6250 3000
-Text HLabel 1300 6700 0    50   Input ~ 0
-DIAG_Z
-Wire Wire Line
-	1300 6700 1800 6700
-Wire Wire Line
 	6350 1600 5850 1600
 Wire Wire Line
 	5850 1600 5850 1400
@@ -2155,48 +2126,22 @@ Text Label 5900 2300 0    39   ~ 0
 DIR_Y
 Text Label 5900 2800 0    39   ~ 0
 EN_Y
-Text Label 1750 3050 2    50   ~ 0
-X_DIAG
 Connection ~ 1850 3050
-Wire Wire Line
-	1350 3050 1850 3050
-Text HLabel 1350 3050 0    50   Input ~ 0
-X_DIAG
-Wire Wire Line
-	1350 2850 1950 2850
-Text HLabel 1350 2850 0    50   Input ~ 0
-EN_X
-Wire Wire Line
-	1350 2350 1950 2350
-Wire Wire Line
-	1350 2250 1950 2250
-Text HLabel 1350 2350 0    50   Input ~ 0
-DIR_X
-Text HLabel 1350 2250 0    50   Input ~ 0
-STEP_X
 Wire Wire Line
 	1950 2050 1350 2050
 Wire Wire Line
 	1950 1950 1350 1950
-Wire Wire Line
-	1950 1850 1350 1850
-Wire Wire Line
-	1950 1750 1350 1750
 Text HLabel 1350 2050 0    50   Input ~ 0
 SDO_SPI
 Text HLabel 1350 1950 0    50   Input ~ 0
 SDI_SPI
-Text HLabel 1350 1850 0    50   Input ~ 0
-SCK_SPI
-Text HLabel 1350 1750 0    50   Input ~ 0
-~CS~_SPI_X
 $Comp
 L power:GND #PWR?
 U 1 1 5FF98E63
 P 1250 2600
 AR Path="/5EEE69C6/5FF98E63" Ref="#PWR?"  Part="1" 
-AR Path="/5FF92876/5FF98E63" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1250 2350 50  0001 C CNN
+AR Path="/5FF92876/5FF98E63" Ref="#PWR0144"  Part="1" 
+F 0 "#PWR0144" H 1250 2350 50  0001 C CNN
 F 1 "GND" H 1255 2427 50  0000 C CNN
 F 2 "" H 1250 2600 50  0001 C CNN
 F 3 "" H 1250 2600 50  0001 C CNN
@@ -2212,8 +2157,8 @@ L power:GND #PWR?
 U 1 1 5FF98DA6
 P 750 1700
 AR Path="/5EEE69C6/5FF98DA6" Ref="#PWR?"  Part="1" 
-AR Path="/5FF92876/5FF98DA6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 750 1450 50  0001 C CNN
+AR Path="/5FF92876/5FF98DA6" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 750 1450 50  0001 C CNN
 F 1 "GND" H 755 1527 50  0000 C CNN
 F 2 "" H 750 1700 50  0001 C CNN
 F 3 "" H 750 1700 50  0001 C CNN
@@ -2231,8 +2176,8 @@ L power:GND #PWR?
 U 1 1 60058763
 P 5700 1400
 AR Path="/5EEE69C6/60058763" Ref="#PWR?"  Part="1" 
-AR Path="/5FF92876/60058763" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5700 1150 50  0001 C CNN
+AR Path="/5FF92876/60058763" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 5700 1150 50  0001 C CNN
 F 1 "GND" H 5705 1227 50  0000 C CNN
 F 2 "" H 5700 1400 50  0001 C CNN
 F 3 "" H 5700 1400 50  0001 C CNN
@@ -2244,8 +2189,8 @@ L power:GND #PWR?
 U 1 1 600587F6
 P 5650 2550
 AR Path="/5EEE69C6/600587F6" Ref="#PWR?"  Part="1" 
-AR Path="/5FF92876/600587F6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 2300 50  0001 C CNN
+AR Path="/5FF92876/600587F6" Ref="#PWR0181"  Part="1" 
+F 0 "#PWR0181" H 5650 2300 50  0001 C CNN
 F 1 "GND" H 5655 2377 50  0000 C CNN
 F 2 "" H 5650 2550 50  0001 C CNN
 F 3 "" H 5650 2550 50  0001 C CNN
@@ -2256,16 +2201,6 @@ Wire Wire Line
 	5650 2500 5650 2550
 Wire Wire Line
 	6350 2500 5650 2500
-Text HLabel 5750 3000 0    50   Input ~ 0
-Y_DIAG
-Text HLabel 5750 2800 0    50   Input ~ 0
-EN_Y
-Text HLabel 5750 2300 0    50   Input ~ 0
-DIR_Y
-Text HLabel 5750 2200 0    50   Input ~ 0
-STEP_Y
-Text HLabel 5750 1700 0    50   Input ~ 0
-~CS~_SPI_Y
 Text Label 5750 1800 2    39   ~ 0
 SCK_SPI
 Text Label 5750 1900 2    39   ~ 0
@@ -2278,4 +2213,186 @@ Text Label 1300 5600 2    39   ~ 0
 SDI_SPI
 Text Label 1300 5700 2    39   ~ 0
 SDO_SPI
+Wire Wire Line
+	4550 7050 4700 7050
+Wire Wire Line
+	4550 7150 4700 7150
+Wire Wire Line
+	4550 7250 4700 7250
+Wire Wire Line
+	4550 7350 4700 7350
+Wire Wire Line
+	4550 7450 4700 7450
+Entry Wire Line
+	4700 7050 4800 7150
+Entry Wire Line
+	4700 7150 4800 7250
+Entry Wire Line
+	4700 7250 4800 7350
+Entry Wire Line
+	4700 7350 4800 7450
+Entry Wire Line
+	4700 7450 4800 7550
+Text Label 1250 1750 2    39   ~ 0
+X_0
+Text Label 1250 2250 2    39   ~ 0
+X_1
+Text Label 1250 2350 2    39   ~ 0
+X_2
+Text Label 1250 2850 2    39   ~ 0
+X_3
+Text Label 1250 3050 2    39   ~ 0
+X_4
+Wire Wire Line
+	1250 2250 1950 2250
+Wire Wire Line
+	1250 2350 1950 2350
+Wire Wire Line
+	1250 2850 1950 2850
+Wire Wire Line
+	1250 3050 1850 3050
+Text HLabel 4900 6750 2    79   Input ~ 0
+X_[0..4]
+Wire Bus Line
+	4800 6750 4900 6750
+Entry Wire Line
+	5450 7050 5550 7150
+Entry Wire Line
+	5450 7150 5550 7250
+Entry Wire Line
+	5450 7250 5550 7350
+Entry Wire Line
+	5450 7350 5550 7450
+Entry Wire Line
+	5450 7450 5550 7550
+Text HLabel 5650 6750 2    79   Input ~ 0
+Y_[0..4]
+Wire Bus Line
+	5550 6750 5650 6750
+Entry Wire Line
+	6100 7050 6200 7150
+Entry Wire Line
+	6100 7150 6200 7250
+Entry Wire Line
+	6100 7250 6200 7350
+Entry Wire Line
+	6100 7350 6200 7450
+Entry Wire Line
+	6100 7450 6200 7550
+Text HLabel 6300 6750 2    79   Input ~ 0
+Z_[0..4]
+Wire Bus Line
+	6200 6750 6300 6750
+Text Label 5300 7050 0    59   ~ 0
+Y_0
+Text Label 5300 7150 0    59   ~ 0
+Y_1
+Text Label 5300 7250 0    59   ~ 0
+Y_2
+Text Label 5300 7350 0    59   ~ 0
+Y_3
+Text Label 5300 7450 0    59   ~ 0
+Y_4
+Wire Wire Line
+	5450 7050 5300 7050
+Wire Wire Line
+	5450 7150 5300 7150
+Wire Wire Line
+	5450 7250 5300 7250
+Wire Wire Line
+	5450 7350 5300 7350
+Wire Wire Line
+	5450 7450 5300 7450
+Text Label 4550 7050 0    59   ~ 0
+X_0
+Text Label 4550 7150 0    59   ~ 0
+X_1
+Text Label 4550 7250 0    59   ~ 0
+X_2
+Text Label 4550 7350 0    59   ~ 0
+X_3
+Text Label 4550 7450 0    59   ~ 0
+X_4
+Text Label 5950 7050 0    59   ~ 0
+Z_0
+Text Label 5950 7150 0    59   ~ 0
+Z_1
+Text Label 5950 7250 0    59   ~ 0
+Z_2
+Text Label 5950 7350 0    59   ~ 0
+Z_3
+Text Label 5950 7450 0    59   ~ 0
+Z_4
+Wire Wire Line
+	5950 7050 6100 7050
+Wire Wire Line
+	5950 7150 6100 7150
+Wire Wire Line
+	5950 7250 6100 7250
+Wire Wire Line
+	5950 7350 6100 7350
+Wire Wire Line
+	5950 7450 6100 7450
+Text Label 5600 1700 0    59   ~ 0
+Y_0
+Text Label 5600 2200 0    59   ~ 0
+Y_1
+Text Label 5600 2300 0    59   ~ 0
+Y_2
+Text Label 5400 2800 0    59   ~ 0
+Y_3
+Text Label 5600 3000 0    59   ~ 0
+Y_4
+Wire Wire Line
+	5600 1700 6350 1700
+Wire Wire Line
+	5600 2200 6350 2200
+Wire Wire Line
+	5600 2300 6350 2300
+Wire Wire Line
+	5400 2800 6350 2800
+Wire Wire Line
+	5600 3000 6250 3000
+Text Label 1150 5400 0    59   ~ 0
+Z_0
+Text Label 1150 5900 0    59   ~ 0
+Z_1
+Text Label 1150 6000 0    59   ~ 0
+Z_2
+Text Label 950  6500 0    59   ~ 0
+Z_3
+Text Label 1150 6700 0    59   ~ 0
+Z_4
+Wire Wire Line
+	1150 5400 1900 5400
+Wire Wire Line
+	1150 5900 1900 5900
+Wire Wire Line
+	1150 6000 1900 6000
+Wire Wire Line
+	1150 6700 1800 6700
+Wire Wire Line
+	950  6500 1900 6500
+Wire Wire Line
+	1950 1750 1250 1750
+Text HLabel 1350 1850 0    50   Input ~ 0
+SCK_SPI
+Wire Wire Line
+	1950 1850 1350 1850
+Text Label 1500 1750 0    39   ~ 0
+~CS~_SPI_X
+Text Label 1500 2250 0    39   ~ 0
+STEP_X
+Text Label 1500 2350 0    39   ~ 0
+DIR_Y
+Text Label 1550 2850 0    39   ~ 0
+EN_X
+Text Label 1800 3050 2    50   ~ 0
+X_DIAG
+Wire Bus Line
+	4800 6750 4800 7700
+Wire Bus Line
+	5550 6750 5550 7700
+Wire Bus Line
+	6200 6750 6200 7700
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:bountifulHarvest-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -229,4 +228,6 @@ Wire Wire Line
 	3850 4550 3850 6950
 Wire Wire Line
 	3850 6950 4350 6950
+Text Notes 9700 2750 0    79   ~ 0
+NEED TO UPDATE ALL POWER SUPPLIES TO INCLUDE VSA
 $EndSCHEMATC
