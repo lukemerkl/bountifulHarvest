@@ -622,7 +622,7 @@ F 5 "1276-6557-1-ND" H 1800 1150 50  0001 C CNN "Vendor P/N"
 $EndComp
 Connection ~ 2250 1000
 Wire Wire Line
-	2250 1000 2250 1350
+	2250 1000 2250 1200
 Wire Wire Line
 	1800 1300 1800 1350
 Wire Wire Line
@@ -1215,7 +1215,7 @@ F 5 "1276-6557-1-ND" H 6200 1100 50  0001 C CNN "Vendor P/N"
 $EndComp
 Connection ~ 6650 950 
 Wire Wire Line
-	6650 950  6650 1300
+	6650 950  6650 1150
 Wire Wire Line
 	6200 1250 6200 1300
 Wire Wire Line
@@ -1795,7 +1795,7 @@ F 5 "1276-6557-1-ND" H 1750 4800 50  0001 C CNN "Vendor P/N"
 $EndComp
 Connection ~ 2200 4650
 Wire Wire Line
-	2200 4650 2200 5000
+	2200 4650 2200 4900
 Wire Wire Line
 	1750 4950 1750 5000
 Wire Wire Line
@@ -2388,6 +2388,30 @@ Text Label 1550 2850 0    39   ~ 0
 EN_X
 Text Label 1800 3050 2    50   ~ 0
 X_DIAG
+Wire Wire Line
+	2850 1450 2850 1200
+Wire Wire Line
+	2850 1200 2250 1200
+Connection ~ 2250 1200
+Wire Wire Line
+	2250 1200 2250 1350
+Wire Wire Line
+	7250 1400 7250 1150
+Wire Wire Line
+	7250 1150 6650 1150
+Connection ~ 6650 1150
+Wire Wire Line
+	6650 1150 6650 1300
+Wire Wire Line
+	2800 5100 2800 4900
+Wire Wire Line
+	2800 4900 2700 4900
+Connection ~ 2200 4900
+Wire Wire Line
+	2200 4900 2200 5000
+Connection ~ 2700 4900
+Wire Wire Line
+	2700 4900 2200 4900
 Wire Bus Line
 	4800 6750 4800 7700
 Wire Bus Line
