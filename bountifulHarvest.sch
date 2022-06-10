@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title "BountifulHarvest"
 Date ""
 Rev "-"
@@ -24,14 +24,14 @@ Wire Notes Line
 Text Notes 1400 1750 0    50   ~ 0
 24Vin
 Wire Notes Line
-	1000 2400 2100 2400
+	1000 2000 2100 2000
 Wire Notes Line
-	2100 2400 2100 3600
+	2100 2000 2100 4050
 Wire Notes Line
-	2100 3600 1000 3600
+	2100 4050 1000 4050
 Wire Notes Line
-	1000 3600 1000 2400
-Text Notes 1250 2650 0    50   ~ 0
+	1000 4050 1000 2000
+Text Notes 1250 2250 0    50   ~ 0
 4 Encoders\n7Pin connectors\n
 Wire Notes Line
 	7600 1550 7600 2100
@@ -44,32 +44,40 @@ Wire Notes Line
 Text Notes 6450 1900 0    50   ~ 0
 Main Processor\nArduino atmega2570
 Wire Notes Line
-	4050 1950 4050 2500
+	4650 1800 4650 2350
 Wire Notes Line
-	4050 2500 2500 2500
+	4650 2350 3100 2350
 Wire Notes Line
-	2500 2500 2500 1950
+	3100 2350 3100 1800
 Wire Notes Line
-	2500 1950 4050 1950
-Text Notes 2900 2300 0    50   ~ 0
+	3100 1800 4650 1800
+Text Notes 3500 2150 0    50   ~ 0
 Co-processor\nSTM32
 $Sheet
-S 2500 2650 1550 500 
+S 3100 2550 1550 1300
 U 5EE7212D
 F0 "Coprocessor" 50
 F1 "STM32.sch" 50
+F2 "X0_A_ENC" O L 3100 2650 79 
+F3 "X0_B_ENC" O L 3100 2750 79 
+F4 "X1_A_ENC" O L 3100 2950 79 
+F5 "X1_B_ENC" O L 3100 3050 79 
+F6 "Y_A_ENC" O L 3100 3250 79 
+F7 "Y_B_ENC" O L 3100 3350 79 
+F8 "Z_A_ENC" O L 3100 3550 79 
+F9 "Z_B_ENC" O L 3100 3650 79 
 $EndSheet
 Wire Notes Line
 	4300 5900 5650 5900
 Wire Notes Line
-	1000 4200 2100 4200
+	1000 4850 2100 4850
 Wire Notes Line
-	2100 4200 2100 4850
+	2100 4850 2100 5500
 Wire Notes Line
-	2100 4850 1000 4850
+	2100 5500 1000 5500
 Wire Notes Line
-	1000 4850 1000 4200
-Text Notes 1200 4550 0    50   ~ 0
+	1000 5500 1000 4850
+Text Notes 1200 4850 0    50   ~ 0
 USB + ATMEGA8
 $Sheet
 S 1000 800  1100 700 
@@ -276,4 +284,34 @@ Wire Wire Line
 	8100 5950 8100 4550
 Wire Wire Line
 	8100 4550 7700 4550
+$Sheet
+S 1100 2550 950  1300
+U 62A6BDCF
+F0 "encoders" 59
+F1 "encoders.sch" 59
+F2 "X0_A_ENC" O R 2050 2650 79 
+F3 "X0_B_ENC" O R 2050 2750 79 
+F4 "X1_A_ENC" O R 2050 2950 79 
+F5 "X1_B_ENC" O R 2050 3050 79 
+F6 "Y_A_ENC" O R 2050 3250 79 
+F7 "Y_B_ENC" O R 2050 3350 79 
+F8 "Z_A_ENC" O R 2050 3550 79 
+F9 "Z_B_ENC" O R 2050 3650 79 
+$EndSheet
+Wire Wire Line
+	2050 2650 3100 2650
+Wire Wire Line
+	3100 2750 2050 2750
+Wire Wire Line
+	2050 2950 3100 2950
+Wire Wire Line
+	3100 3050 2050 3050
+Wire Wire Line
+	2050 3250 3100 3250
+Wire Wire Line
+	3100 3350 2050 3350
+Wire Wire Line
+	2050 3550 3100 3550
+Wire Wire Line
+	3100 3650 2050 3650
 $EndSCHEMATC
