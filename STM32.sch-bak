@@ -295,43 +295,10 @@ Text HLabel 10000 3950 2    79   Output ~ 0
 MISO
 $Comp
 L Device:R R?
-U 1 1 62ACD551
-P 8750 4250
-F 0 "R?" V 8543 4250 50  0000 C CNN
-F 1 "10k" V 8634 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 4250 50  0001 C CNN
-F 3 "~" H 8750 4250 50  0001 C CNN
-	1    8750 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62AD0F3F
-P 8750 3950
-F 0 "R?" V 8543 3950 50  0000 C CNN
-F 1 "10k" V 8634 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 3950 50  0001 C CNN
-F 3 "~" H 8750 3950 50  0001 C CNN
-	1    8750 3950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62AD13DD
-P 8750 3650
-F 0 "R?" V 8543 3650 50  0000 C CNN
-F 1 "10k" V 8634 3650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 3650 50  0001 C CNN
-F 3 "~" H 8750 3650 50  0001 C CNN
-	1    8750 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
 U 1 1 62AD17E8
 P 8750 3350
 F 0 "R?" V 8543 3350 50  0000 C CNN
-F 1 "10k" V 8634 3350 50  0000 C CNN
+F 1 "50" V 8634 3350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 3350 50  0001 C CNN
 F 3 "~" H 8750 3350 50  0001 C CNN
 	1    8750 3350
@@ -496,4 +463,145 @@ Wire Wire Line
 Connection ~ 5250 1750
 Wire Wire Line
 	5300 1350 5300 1250
+Text Label 6550 4850 0    59   ~ 0
+SWDIO
+Text Label 6550 4950 0    59   ~ 0
+SWDCLK
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 62B0343A
+P 1850 1500
+F 0 "J?" H 1878 1476 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 1878 1385 50  0000 L CNN
+F 2 "" H 1850 1500 50  0001 C CNN
+F 3 "~" H 1850 1500 50  0001 C CNN
+	1    1850 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1400 1350 1400
+Wire Wire Line
+	1350 1400 1350 1300
+Wire Wire Line
+	1650 1500 1050 1500
+Wire Wire Line
+	1050 1500 1050 1300
+Wire Wire Line
+	1050 1000 1050 950 
+Wire Wire Line
+	1350 950  1350 1000
+Wire Wire Line
+	1200 950  1350 950 
+Connection ~ 1200 950 
+Wire Wire Line
+	1050 950  1200 950 
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62B0DE33
+P 1200 850
+F 0 "#PWR?" H 1200 700 50  0001 C CNN
+F 1 "+3.3V" H 1215 1023 50  0000 C CNN
+F 2 "" H 1200 850 50  0001 C CNN
+F 3 "" H 1200 850 50  0001 C CNN
+	1    1200 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 850  1200 950 
+Text Label 1300 1500 0    59   ~ 0
+SWDIO
+Wire Wire Line
+	1650 1700 1250 1700
+Wire Wire Line
+	1250 1700 1250 1850
+$Comp
+L power:GND #PWR?
+U 1 1 62B1D272
+P 1250 2300
+F 0 "#PWR?" H 1250 2050 50  0001 C CNN
+F 1 "GND" H 1255 2127 50  0000 C CNN
+F 2 "" H 1250 2300 50  0001 C CNN
+F 3 "" H 1250 2300 50  0001 C CNN
+	1    1250 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2150 1250 2250
+Wire Wire Line
+	1250 2250 1050 2250
+Wire Wire Line
+	1050 2250 1050 1600
+Wire Wire Line
+	1050 1600 1650 1600
+Connection ~ 1250 2250
+Wire Wire Line
+	1250 2250 1250 2300
+Text Label 1300 1700 0    59   ~ 0
+SWDCLK
+$Comp
+L Device:R R?
+U 1 1 62B3A1E5
+P 8750 3650
+F 0 "R?" V 8543 3650 50  0000 C CNN
+F 1 "50" V 8634 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 3650 50  0001 C CNN
+F 3 "~" H 8750 3650 50  0001 C CNN
+	1    8750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B3A476
+P 8750 3950
+F 0 "R?" V 8543 3950 50  0000 C CNN
+F 1 "50" V 8634 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 3950 50  0001 C CNN
+F 3 "~" H 8750 3950 50  0001 C CNN
+	1    8750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B3A881
+P 8750 4250
+F 0 "R?" V 8543 4250 50  0000 C CNN
+F 1 "50" V 8634 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 4250 50  0001 C CNN
+F 3 "~" H 8750 4250 50  0001 C CNN
+	1    8750 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B3AE73
+P 1350 1150
+F 0 "R?" H 1280 1104 50  0000 R CNN
+F 1 "10k" H 1280 1195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1280 1150 50  0001 C CNN
+F 3 "~" H 1350 1150 50  0001 C CNN
+	1    1350 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B3B3A7
+P 1250 2000
+F 0 "R?" H 1180 1954 50  0000 R CNN
+F 1 "10k" H 1180 2045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 2000 50  0001 C CNN
+F 3 "~" H 1250 2000 50  0001 C CNN
+	1    1250 2000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62B3BA13
+P 1050 1150
+F 0 "R?" H 980 1104 50  0000 R CNN
+F 1 "10k" H 980 1195 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 980 1150 50  0001 C CNN
+F 3 "~" H 1050 1150 50  0001 C CNN
+	1    1050 1150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
