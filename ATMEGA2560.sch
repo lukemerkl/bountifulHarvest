@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 8 8
 Title ""
 Date ""
 Rev ""
@@ -269,9 +269,9 @@ Text HLabel 5650 6500 2    59   Input ~ 0
 P_0_I
 Text HLabel 5650 6600 2    59   Input ~ 0
 P_1_I
-Text HLabel 5650 6700 2    59   Input ~ 0
+Text HLabel 6250 5050 2    59   Input ~ 0
 P_2_I
-Text HLabel 5650 6800 2    59   Input ~ 0
+Text HLabel 6250 5150 2    59   Input ~ 0
 P_3_I
 Wire Wire Line
 	5450 6500 5650 6500
@@ -940,18 +940,6 @@ Wire Wire Line
 	2150 4500 2150 6500
 Wire Wire Line
 	2150 6500 3700 6500
-Wire Wire Line
-	3100 4000 3850 4000
-Wire Wire Line
-	3100 4100 3850 4100
-Wire Wire Line
-	3100 4200 3850 4200
-Wire Wire Line
-	3100 4300 3850 4300
-Wire Wire Line
-	3100 4400 3850 4400
-Wire Wire Line
-	3100 4500 3850 4500
 $Comp
 L Device:R R?
 U 1 1 621EE858
@@ -1019,6 +1007,157 @@ Wire Wire Line
 Connection ~ 1550 2900
 Wire Wire Line
 	1550 2900 1550 3000
+Wire Wire Line
+	3100 4500 3850 4500
+Wire Wire Line
+	3100 4400 3850 4400
+Wire Wire Line
+	3100 4300 3850 4300
+Wire Wire Line
+	3100 4200 3850 4200
+Wire Wire Line
+	3100 4100 3850 4100
+Wire Wire Line
+	3100 4000 3850 4000
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 62EF8F2F
+P 9200 5450
+F 0 "J?" H 9250 5867 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 9250 5776 50  0000 C CNN
+F 2 "" H 9200 5450 50  0001 C CNN
+F 3 "~" H 9200 5450 50  0001 C CNN
+	1    9200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J?
+U 1 1 62EF965D
+P 10050 5450
+F 0 "J?" H 10100 5867 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 10100 5776 50  0000 C CNN
+F 2 "" H 10050 5450 50  0001 C CNN
+F 3 "~" H 10050 5450 50  0001 C CNN
+	1    10050 5450
+	1    0    0    -1  
+$EndComp
+Text Label 10850 5250 2    59   ~ 0
+X_MIN
+Text Label 10850 5350 2    59   ~ 0
+X_MAX
+Text Label 10850 5550 2    59   ~ 0
+Y_MAX
+Text Label 10850 5450 2    59   ~ 0
+Y_MIN
+Text Label 10850 5750 2    59   ~ 0
+Z_MAX
+Text Label 10850 5650 2    59   ~ 0
+Z_MIN
+Wire Wire Line
+	10350 5750 11100 5750
+Wire Wire Line
+	10350 5650 11100 5650
+Wire Wire Line
+	10350 5550 11100 5550
+Wire Wire Line
+	10350 5450 11100 5450
+Wire Wire Line
+	10350 5350 11100 5350
+Wire Wire Line
+	10350 5250 11100 5250
+$Comp
+L power:GND #PWR?
+U 1 1 62F30E7C
+P 9650 6100
+F 0 "#PWR?" H 9650 5850 50  0001 C CNN
+F 1 "GND" H 9655 5927 50  0000 C CNN
+F 2 "" H 9650 6100 50  0001 C CNN
+F 3 "" H 9650 6100 50  0001 C CNN
+	1    9650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5250 9650 5250
+Wire Wire Line
+	9500 5350 9650 5350
+Wire Wire Line
+	9850 5450 9650 5450
+Wire Wire Line
+	9500 5550 9650 5550
+Wire Wire Line
+	9850 5650 9650 5650
+Wire Wire Line
+	9500 5750 9650 5750
+Wire Wire Line
+	9650 6100 9650 5750
+Connection ~ 9650 5250
+Wire Wire Line
+	9650 5250 9850 5250
+Connection ~ 9650 5350
+Wire Wire Line
+	9650 5350 9850 5350
+Wire Wire Line
+	9650 5350 9650 5250
+Connection ~ 9650 5450
+Wire Wire Line
+	9650 5450 9500 5450
+Wire Wire Line
+	9650 5450 9650 5350
+Connection ~ 9650 5550
+Wire Wire Line
+	9650 5550 9850 5550
+Wire Wire Line
+	9650 5550 9650 5450
+Connection ~ 9650 5650
+Wire Wire Line
+	9650 5650 9500 5650
+Wire Wire Line
+	9650 5650 9650 5550
+Connection ~ 9650 5750
+Wire Wire Line
+	9650 5750 9850 5750
+Wire Wire Line
+	9650 5750 9650 5650
+$Comp
+L power:+5V #PWR?
+U 1 1 62F81107
+P 8550 5150
+F 0 "#PWR?" H 8550 5000 50  0001 C CNN
+F 1 "+5V" H 8565 5323 50  0000 C CNN
+F 2 "" H 8550 5150 50  0001 C CNN
+F 3 "" H 8550 5150 50  0001 C CNN
+	1    8550 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 5750 8550 5750
+Wire Wire Line
+	8550 5750 8550 5650
+Wire Wire Line
+	9000 5250 8550 5250
+Connection ~ 8550 5250
+Wire Wire Line
+	8550 5250 8550 5150
+Wire Wire Line
+	8550 5350 9000 5350
+Connection ~ 8550 5350
+Wire Wire Line
+	8550 5350 8550 5250
+Wire Wire Line
+	9000 5450 8550 5450
+Connection ~ 8550 5450
+Wire Wire Line
+	8550 5450 8550 5350
+Wire Wire Line
+	8550 5550 9000 5550
+Connection ~ 8550 5550
+Wire Wire Line
+	8550 5550 8550 5450
+Wire Wire Line
+	9000 5650 8550 5650
+Connection ~ 8550 5650
+Wire Wire Line
+	8550 5650 8550 5550
 Wire Bus Line
 	1000 550  1000 1500
 Wire Bus Line
