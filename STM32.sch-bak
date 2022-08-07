@@ -614,4 +614,6 @@ Wire Wire Line
 	3400 1950 4150 1950
 Text Notes 3450 1900 0    59   ~ 0
 Weak (about 40k ) internal pullup
+Wire Wire Line
+	10000 3950 8900 3950
 $EndSCHEMATC
