@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -270,7 +270,7 @@ Text HLabel 10000 4250 2    79   Output ~ 0
 MOSI
 Text HLabel 10000 3650 2    79   Output ~ 0
 SCLK
-Text HLabel 10000 3950 2    79   Output ~ 0
+Text HLabel 10700 5900 2    79   Output ~ 0
 MISO
 $Comp
 L Device:R R25
@@ -616,4 +616,68 @@ Text Notes 3450 1900 0    59   ~ 0
 Weak (about 40k ) internal pullup
 Wire Wire Line
 	10000 3950 8900 3950
+$Comp
+L Logic_LevelTranslator:SN74AUP1T34DCK U?
+U 1 1 63165C49
+P 9350 5900
+F 0 "U?" H 9794 5946 50  0000 L CNN
+F 1 "SN74AUP1T34DCK" H 9794 5855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 9350 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74aup1t34.pdf" H 9350 5300 50  0001 C CNN
+	1    9350 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 5900 10700 5900
+Text Label 10000 3950 0    59   ~ 0
+MISO_3v3
+Text Label 8300 5900 0    59   ~ 0
+MISO_3v3
+Wire Wire Line
+	8300 5900 8950 5900
+$Comp
+L power:GND #PWR?
+U 1 1 6316E590
+P 9350 6300
+AR Path="/5EE66603/6316E590" Ref="#PWR?"  Part="1" 
+AR Path="/5EE7212D/6316E590" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9350 6050 50  0001 C CNN
+F 1 "GND" H 9355 6127 50  0000 C CNN
+F 2 "" H 9350 6300 50  0001 C CNN
+F 3 "" H 9350 6300 50  0001 C CNN
+	1    9350 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 6200 9350 6300
+$Comp
+L power:+3.3V #PWR?
+U 1 1 631724AF
+P 9250 5400
+F 0 "#PWR?" H 9250 5250 50  0001 C CNN
+F 1 "+3.3V" H 9265 5573 50  0000 C CNN
+F 2 "" H 9250 5400 50  0001 C CNN
+F 3 "" H 9250 5400 50  0001 C CNN
+	1    9250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 5400 9250 5600
+$Comp
+L power:VCC #PWR?
+U 1 1 63188529
+P 9500 5400
+F 0 "#PWR?" H 9500 5250 50  0001 C CNN
+F 1 "VCC" H 9515 5573 50  0000 C CNN
+F 2 "" H 9500 5400 50  0001 C CNN
+F 3 "" H 9500 5400 50  0001 C CNN
+	1    9500 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 5400 9500 5500
+Wire Wire Line
+	9500 5500 9450 5500
+Wire Wire Line
+	9450 5500 9450 5600
 $EndSCHEMATC

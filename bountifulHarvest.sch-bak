@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "BountifulHarvest"
 Date ""
 Rev "-"
@@ -79,11 +79,11 @@ Wire Notes Line
 Wire Notes Line
 	1000 4850 2100 4850
 Wire Notes Line
-	2100 4850 2100 5500
+	2100 4850 2100 5800
 Wire Notes Line
-	2100 5500 1000 5500
+	2100 5800 1000 5800
 Wire Notes Line
-	1000 5500 1000 4850
+	1000 5800 1000 4850
 Text Notes 1200 4850 0    50   ~ 0
 USB + ATMEGA8
 $Sheet
@@ -351,4 +351,10 @@ Wire Wire Line
 	4650 3550 5200 3550
 Wire Wire Line
 	5200 3650 4650 3650
+$Sheet
+S 1050 5050 1000 500 
+U 6318D4AB
+F0 "ATMEGA16" 59
+F1 "ATMEGA16.sch" 59
+$EndSheet
 $EndSCHEMATC
