@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bountifulHarvest-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -455,7 +456,7 @@ U 1 1 5FF1A7BC
 P 1150 3800
 F 0 "TP6" H 1208 3874 50  0000 L CNN
 F 1 "TestPoint" H 1208 3829 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1350 3800 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 1350 3800 50  0001 C CNN
 F 3 "~" H 1350 3800 50  0001 C CNN
 	1    1150 3800
 	1    0    0    -1  
@@ -469,7 +470,7 @@ U 1 1 5FF1BF56
 P 1100 5400
 F 0 "TP7" H 1158 5474 50  0000 L CNN
 F 1 "TestPoint" H 1158 5429 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1300 5400 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 1300 5400 50  0001 C CNN
 F 3 "~" H 1300 5400 50  0001 C CNN
 	1    1100 5400
 	1    0    0    -1  
@@ -734,7 +735,7 @@ U 1 1 5FFAEB96
 P 3250 2350
 F 0 "R57" V 3043 2350 50  0000 C CNN
 F 1 "10" V 3134 2350 50  0000 C CNN
-F 2 "" V 3180 2350 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3180 2350 50  0001 C CNN
 F 3 "~" H 3250 2350 50  0001 C CNN
 F 4 "Digi-Key" H 3250 2350 50  0001 C CNN "Vendor"
 F 5 "13-RE0805FRE0710RLCT-ND" H 3250 2350 50  0001 C CNN "Vendor P/N"
@@ -1215,7 +1216,7 @@ AR Path="/5EEE69C6/6026AE04" Ref="TP5"  Part="1"
 AR Path="/5FF92876/6026AE04" Ref="TP?"  Part="1" 
 F 0 "TP5" H 7458 3424 50  0000 L CNN
 F 1 "TestPoint" H 7458 3379 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 7600 3350 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 7600 3350 50  0001 C CNN
 F 3 "~" H 7600 3350 50  0001 C CNN
 	1    7400 3350
 	1    0    0    -1  
@@ -1365,7 +1366,7 @@ AR Path="/5EEE69C6/6026AE54" Ref="R58"  Part="1"
 AR Path="/5FF92876/6026AE54" Ref="R?"  Part="1" 
 F 0 "R58" V 8643 2900 50  0000 C CNN
 F 1 "10" V 8734 2900 50  0000 C CNN
-F 2 "" V 8780 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8780 2900 50  0001 C CNN
 F 3 "~" H 8850 2900 50  0001 C CNN
 F 4 "Digi-Key" H 8850 2900 50  0001 C CNN "Vendor"
 F 5 "13-RE0805FRE0710RLCT-ND" H 8850 2900 50  0001 C CNN "Vendor P/N"

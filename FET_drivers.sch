@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bountifulHarvest-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -159,7 +160,7 @@ U 2 1 5F09CB12
 P 2100 6500
 F 0 "U5" H 2100 6867 50  0000 C CNN
 F 1 "LM324A" H 2100 6776 50  0000 C CNN
-F 2 "" H 2050 6600 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 2050 6600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2150 6700 50  0001 C CNN
 	2    2100 6500
 	1    0    0    -1  
@@ -170,7 +171,7 @@ U 3 1 5F09CC2D
 P 4900 5250
 F 0 "U5" H 4900 5617 50  0000 C CNN
 F 1 "LM324A" H 4900 5526 50  0000 C CNN
-F 2 "" H 4850 5350 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4850 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 5450 50  0001 C CNN
 	3    4900 5250
 	1    0    0    -1  
@@ -181,7 +182,7 @@ U 4 1 5F09CCBC
 P 8450 5250
 F 0 "U5" H 8450 5617 50  0000 C CNN
 F 1 "LM324A" H 8450 5526 50  0000 C CNN
-F 2 "" H 8400 5350 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 8400 5350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 8500 5450 50  0001 C CNN
 	4    8450 5250
 	1    0    0    -1  
@@ -192,7 +193,7 @@ U 5 1 5F09CD1D
 P 4600 6750
 F 0 "U5" H 4558 6796 50  0000 L CNN
 F 1 "LM324A" H 4558 6705 50  0000 L CNN
-F 2 "" H 4550 6850 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-14_3.9x8.7mm_Pitch1.27mm" H 4550 6850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4650 6950 50  0001 C CNN
 	5    4600 6750
 	1    0    0    -1  

@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:bountifulHarvest-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -419,7 +420,7 @@ AR Path="/5EEE69C6/5FF98E37" Ref="TP?"  Part="1"
 AR Path="/5FF92876/5FF98E37" Ref="TP3"  Part="1" 
 F 0 "TP3" H 1108 1424 50  0000 L CNN
 F 1 "TestPoint" H 1108 1379 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1250 1350 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 1250 1350 50  0001 C CNN
 F 3 "~" H 1250 1350 50  0001 C CNN
 	1    1050 1350
 	1    0    0    -1  
@@ -590,7 +591,7 @@ AR Path="/5EEE69C6/5FF98EE2" Ref="R?"  Part="1"
 AR Path="/5FF92876/5FF98EE2" Ref="R40"  Part="1" 
 F 0 "R40" V 2293 900 50  0000 C CNN
 F 1 "10" V 2384 900 50  0000 C CNN
-F 2 "" V 2430 900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2430 900 50  0001 C CNN
 F 3 "~" H 2500 900 50  0001 C CNN
 F 4 "Digi-Key" H 2500 900 50  0001 C CNN "Vendor"
 F 5 "13-RE0805FRE0710RLCT-ND" H 2500 900 50  0001 C CNN "Vendor P/N"
@@ -1050,7 +1051,7 @@ AR Path="/5EEE69C6/600587D4" Ref="TP?"  Part="1"
 AR Path="/5FF92876/600587D4" Ref="TP2"  Part="1" 
 F 0 "TP2" H 5508 1374 50  0000 L CNN
 F 1 "TestPoint" H 5508 1329 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 5650 1300 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 5650 1300 50  0001 C CNN
 F 3 "~" H 5650 1300 50  0001 C CNN
 	1    5450 1300
 	1    0    0    -1  
@@ -1183,7 +1184,7 @@ AR Path="/5EEE69C6/60058824" Ref="R?"  Part="1"
 AR Path="/5FF92876/60058824" Ref="R39"  Part="1" 
 F 0 "R39" V 6693 850 50  0000 C CNN
 F 1 "10" V 6784 850 50  0000 C CNN
-F 2 "" V 6830 850 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6830 850 50  0001 C CNN
 F 3 "~" H 6900 850 50  0001 C CNN
 F 4 "Digi-Key" H 6900 850 50  0001 C CNN "Vendor"
 F 5 "13-RE0805FRE0710RLCT-ND" H 6900 850 50  0001 C CNN "Vendor P/N"
@@ -1615,7 +1616,7 @@ AR Path="/5EEE69C6/600BABA2" Ref="TP?"  Part="1"
 AR Path="/5FF92876/600BABA2" Ref="TP4"  Part="1" 
 F 0 "TP4" H 1058 5074 50  0000 L CNN
 F 1 "TestPoint" H 1058 5029 50  0001 L CNN
-F 2 "Measurement_Points:Test_Point_Keystone_5000-5004_Miniature" H 1200 5000 50  0001 C CNN
+F 2 "Measurement_Points:Test_Point_Keystone_5015_Micro-Minature" H 1200 5000 50  0001 C CNN
 F 3 "~" H 1200 5000 50  0001 C CNN
 	1    1000 5000
 	1    0    0    -1  
@@ -1763,7 +1764,7 @@ AR Path="/5EEE69C6/600BABF2" Ref="R?"  Part="1"
 AR Path="/5FF92876/600BABF2" Ref="R51"  Part="1" 
 F 0 "R51" V 2243 4550 50  0000 C CNN
 F 1 "10" V 2334 4550 50  0000 C CNN
-F 2 "" V 2380 4550 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2380 4550 50  0001 C CNN
 F 3 "~" H 2450 4550 50  0001 C CNN
 F 4 "Digi-Key" H 2450 4550 50  0001 C CNN "Vendor"
 F 5 "13-RE0805FRE0710RLCT-ND" H 2450 4550 50  0001 C CNN "Vendor P/N"
